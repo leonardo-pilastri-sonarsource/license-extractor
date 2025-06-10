@@ -1,0 +1,4376 @@
+{
+  "topLibs": [
+    {
+      "identifier": "software.amazon.awssdk:s3",
+      "version": "2.29.29"
+    },
+    {
+      "identifier": "software.amazon.awssdk:dynamodb",
+      "version": "2.29.29"
+    },
+    {
+      "identifier": "software.amazon.awssdk:sdk-core",
+      "version": "2.29.29"
+    },
+    {
+      "identifier": "software.amazon.awssdk:aws-core",
+      "version": "2.29.29"
+    },
+    {
+      "identifier": "software.amazon.awssdk:http-client-spi",
+      "version": "2.29.29"
+    },
+    {
+      "identifier": "software.amazon.awssdk:core",
+      "version": "2.29.29"
+    },
+    {
+      "identifier": "org.apache.httpcomponents:httpclient",
+      "version": "4.5.14"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-web",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "org.apache.logging.log4j:log4j-core",
+      "version": "2.24.2"
+    },
+    {
+      "identifier": "com.h2database:h2",
+      "version": "2.3.232"
+    },
+    {
+      "identifier": "mysql:mysql-connector-java",
+      "version": "8.0.33"
+    },
+    {
+      "identifier": "commons-httpclient:commons-httpclient",
+      "version": "3.1"
+    },
+    {
+      "identifier": "xerces:xercesImpl",
+      "version": "2.12.2"
+    },
+    {
+      "identifier": "org.mongodb.mongodb-driver-sync:mongodb-driver-sync",
+      "version": "4.5.0"
+    },
+    {
+      "identifier": "dom4j:dom4j",
+      "version": "1.4-dev-8"
+    },
+    {
+      "identifier": "com.squareup.retrofit2:retrofit",
+      "version": "2.11.0"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-data-jpa",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-actuator",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-thymeleaf",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-devtools",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-security",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "com.squareup.retrofit2:converter-gson",
+      "version": "2.11.0"
+    },
+    {
+      "identifier": "javax:javaee-api",
+      "version": "8.0.1"
+    },
+    {
+      "identifier": "io.springfox:springfox-swagger2",
+      "version": "3.0.0"
+    },
+    {
+      "identifier": "org.springframework.security:spring-security-taglibs",
+      "version": "6.4.1"
+    },
+    {
+      "identifier": "io.springfox:springfox-swagger-ui",
+      "version": "3.0.0"
+    },
+    {
+      "identifier": "io.reactivex:rxandroid",
+      "version": "1.2.1"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-jetty",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "org.apache.commons:commons-io",
+      "version": "1.3.2"
+    },
+    {
+      "identifier": "org.springframework.security:spring-security-test",
+      "version": "6.4.1"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-data-rest",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "io.reactivex.rxjava2:rxandroid",
+      "version": "2.1.1"
+    },
+    {
+      "identifier": "postgresql:postgresql",
+      "version": "9.1-901-1.jdbc4"
+    },
+    {
+      "identifier": "org.apache.tomcat.embed:tomcat-embed-jasper",
+      "version": "10.1.33"
+    },
+    {
+      "identifier": "org.primefaces:primefaces",
+      "version": "15.0.0-RC1"
+    },
+    {
+      "identifier": "org.webjars:bootstrap",
+      "version": "5.3.3"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-mail",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "org.apache.shiro:shiro-spring",
+      "version": "2.0.2"
+    },
+    {
+      "identifier": "io.jsonwebtoken:jjwt",
+      "version": "0.12.6"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-data-mongodb",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "org.springframework.cloud:spring-cloud-starter-eureka",
+      "version": "1.4.7.RELEASE"
+    },
+    {
+      "identifier": "org.slf4j:log4j-over-slf4j",
+      "version": "2.0.16"
+    },
+    {
+      "identifier": "com.squareup.retrofit2:adapter-rxjava",
+      "version": "2.11.0"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-data-redis",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "org.eclipse.persistence:eclipselink",
+      "version": "5.0.0-B04"
+    },
+    {
+      "identifier": "org.apache.hadoop:hadoop-client",
+      "version": "3.4.1"
+    },
+    {
+      "identifier": "com.github.bumptech.glide:compiler",
+      "version": "5.0.0-rc01"
+    },
+    {
+      "identifier": "io.vertx:vertx-web",
+      "version": "5.0.0.CR2"
+    },
+    {
+      "identifier": "org.xerial:sqlite-jdbc",
+      "version": "3.47.1.0"
+    },
+    {
+      "identifier": "org.elasticsearch:elasticsearch",
+      "version": "7.17.26"
+    },
+    {
+      "identifier": "org.hibernate:hibernate-c3p0",
+      "version": "7.0.0.Beta3"
+    },
+    {
+      "identifier": "org.springframework.cloud:spring-cloud-starter-eureka-server",
+      "version": "1.4.7.RELEASE"
+    },
+    {
+      "identifier": "com.sun.faces:jsf-api",
+      "version": "2.2.8-35"
+    },
+    {
+      "identifier": "com.sun.faces:jsf-impl",
+      "version": "2.2.8-35"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-cache",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "com.alibaba:dubbo",
+      "version": "2.6.12"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-websocket",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "org.arquillian.cube:arquillian-cube-openshift",
+      "version": "1.18.2"
+    },
+    {
+      "identifier": "org.seleniumhq.selenium:selenium-server",
+      "version": "4.0.0-alpha-2"
+    },
+    {
+      "identifier": "org.apache.shiro:shiro-ehcache",
+      "version": "2.0.2"
+    },
+    {
+      "identifier": "org.hibernate:hibernate-envers",
+      "version": "7.0.0.Beta3"
+    },
+    {
+      "identifier": "io.vertx:vertx-web-client",
+      "version": "5.0.0.CR2"
+    },
+    {
+      "identifier": "org.springframework.security.oauth:spring-security-oauth2",
+      "version": "2.5.2.RELEASE"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-freemarker",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "org.apache.maven.plugin-tools:maven-plugin-annotations",
+      "version": "3.15.1"
+    },
+    {
+      "identifier": "org.springframework.cloud:spring-cloud-starter-feign",
+      "version": "1.4.7.RELEASE"
+    },
+    {
+      "identifier": "org.apache.cxf:cxf-rt-frontend-jaxws",
+      "version": "3.5.9"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-test",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "net.logstash.logback:logstash-logback-encoder",
+      "version": "8.0"
+    },
+    {
+      "identifier": "org.apache.maven:maven-core",
+      "version": "4.0.0-rc-1"
+    },
+    {
+      "identifier": "org.springframework.cloud:spring-cloud-starter-hystrix",
+      "version": "1.4.7.RELEASE"
+    },
+    {
+      "identifier": "net.sf.opencsv:opencsv",
+      "version": "2.3"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-loader-tools",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "org.flywaydb:flyway-core",
+      "version": "11.0.1"
+    },
+    {
+      "identifier": "org.glassfish:javax.json",
+      "version": "1.1.4"
+    },
+    {
+      "identifier": "com.fasterxml.jackson.datatype:jackson-datatype-hppc",
+      "version": "2.18.2"
+    },
+    {
+      "identifier": "org.apache.solr:solr-solrj",
+      "version": "8.11.4"
+    },
+    {
+      "identifier": "org.springframework.security:spring-security-data",
+      "version": "6.4.1"
+    },
+    {
+      "identifier": "com.jakewharton.timber:timber",
+      "version": "5.0.1"
+    },
+    {
+      "identifier": "com.facebook.react:react-native",
+      "version": "0.71.0-rc.0"
+    },
+    {
+      "identifier": "org.springframework.cloud:spring-cloud-starter-zuul",
+      "version": "1.4.7.RELEASE"
+    },
+    {
+      "identifier": "org.apache.commons:commons-email",
+      "version": "1.6.0"
+    },
+    {
+      "identifier": "io.dropwizard:dropwizard-core",
+      "version": "4.0.11"
+    },
+    {
+      "identifier": "com.ryantenney.metrics:metrics-spring",
+      "version": "3.1.3"
+    },
+    {
+      "identifier": "io.dropwizard.metrics:metrics-servlet",
+      "version": "4.2.29"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-amqp",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "com.github.sgroschupf:zkclient",
+      "version": "0.1"
+    },
+    {
+      "identifier": "org.hibernate:hibernate-jpamodelgen",
+      "version": "5.3.37.Final"
+    },
+    {
+      "identifier": "org.thymeleaf.extras:thymeleaf-extras-springsecurity4",
+      "version": "3.0.5.RELEASE"
+    },
+    {
+      "identifier": "io.springfox:springfox-bean-validators",
+      "version": "3.0.0"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-jersey",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "org.twitter4j:twitter4j-core",
+      "version": "4.1.2"
+    },
+    {
+      "identifier": "org.apache.struts:struts2-spring-plugin",
+      "version": "6.7.0"
+    },
+    {
+      "identifier": "org.apache.cxf:cxf-rt-frontend-jaxrs",
+      "version": "3.5.9"
+    },
+    {
+      "identifier": "com.mattbertolini:liquibase-slf4j",
+      "version": "5.1.0"
+    },
+    {
+      "identifier": "org.glassfish.web:jstl-impl",
+      "version": "1.2"
+    },
+    {
+      "identifier": "com.squareup.leakcanary:leakcanary-android",
+      "version": "3.0-alpha-8"
+    },
+    {
+      "identifier": "org.glassfish.jersey.media:jersey-media-moxy",
+      "version": "3.1.9"
+    },
+    {
+      "identifier": "net.sourceforge.jtds:jtds",
+      "version": "1.3.1"
+    },
+    {
+      "identifier": "com.vaadin:vaadin-themes",
+      "version": "8.14.4"
+    },
+    {
+      "identifier": "org.apache.hbase:hbase-client",
+      "version": "2.6.1-hadoop3"
+    },
+    {
+      "identifier": "net.sf.dozer:dozer",
+      "version": "5.5.1"
+    },
+    {
+      "identifier": "com.github.pagehelper:pagehelper-spring-boot-starter",
+      "version": "2.1.0"
+    },
+    {
+      "identifier": "org.apache.activemq:activemq-all",
+      "version": "6.1.4"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-log4j2",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "com.squareup.leakcanary:leakcanary-android-no-op",
+      "version": "1.6.3"
+    },
+    {
+      "identifier": "com.101tec:zkclient",
+      "version": "0.11"
+    },
+    {
+      "identifier": "org.apache.activemq:activemq-core",
+      "version": "5.7.0"
+    },
+    {
+      "identifier": "org.apache.poi:poi-scratchpad",
+      "version": "5.3.0"
+    },
+    {
+      "identifier": "org.openjdk.jmh:jmh-core",
+      "version": "1.37"
+    },
+    {
+      "identifier": "io.appium:java-client",
+      "version": "9.3.0"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-hateoas",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "com.datastax.cassandra:cassandra-driver-core",
+      "version": "3.11.5"
+    },
+    {
+      "identifier": "org.springframework.cloud:spring-cloud-spring-service-connector",
+      "version": "2.0.9.RELEASE"
+    },
+    {
+      "identifier": "org.springframework.cloud:spring-cloud-starter-ribbon",
+      "version": "1.4.7.RELEASE"
+    },
+    {
+      "identifier": "com.squareup.retrofit2:adapter-rxjava2",
+      "version": "2.11.0"
+    },
+    {
+      "identifier": "com.alibaba:druid-spring-boot-starter",
+      "version": "1.2.24"
+    },
+    {
+      "identifier": "org.jadira.usertype:usertype.core",
+      "version": "7.0.0.CR1"
+    },
+    {
+      "identifier": "org.aspectj:aspectjtools",
+      "version": "1.9.22.1"
+    },
+    {
+      "identifier": "com.mashape.unirest:unirest-java",
+      "version": "1.4.9"
+    },
+    {
+      "identifier": "org.zalando:problem-spring-web",
+      "version": "0.29.1"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-redis",
+      "version": "1.4.7.RELEASE"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-data-elasticsearch",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "com.parse.bolts:bolts-android",
+      "version": "1.4.0"
+    },
+    {
+      "identifier": "org.quartz-scheduler:quartz-jobs",
+      "version": "2.5.0"
+    },
+    {
+      "identifier": "org.springframework.cloud:spring-cloud-starter-hystrix-dashboard",
+      "version": "1.4.7.RELEASE"
+    },
+    {
+      "identifier": "com.relevantcodes:extentreports",
+      "version": "2.41.2"
+    },
+    {
+      "identifier": "com.squareup.retrofit2:converter-scalars",
+      "version": "2.11.0"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-cloud-connectors",
+      "version": "2.2.13.RELEASE"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-web-services",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "com.auth0:java-jwt",
+      "version": "4.4.0"
+    },
+    {
+      "identifier": "edu.stanford.nlp:stanford-corenlp",
+      "version": "4.5.7"
+    },
+    {
+      "identifier": "com.github.miemiedev:mybatis-paginator",
+      "version": "1.2.17"
+    },
+    {
+      "identifier": "org.codehaus.jackson:jackson-mapper-lgpl",
+      "version": "1.9.13"
+    },
+    {
+      "identifier": "com.belerweb:pinyin4j",
+      "version": "2.5.1"
+    },
+    {
+      "identifier": "com.jayway.jsonpath:json-path-assert",
+      "version": "2.9.0"
+    },
+    {
+      "identifier": "net.sf.flexjson:flexjson",
+      "version": "3.3"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-undertow",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "com.qiniu:qiniu-java-sdk",
+      "version": "7.17.0"
+    },
+    {
+      "identifier": "org.modelmapper:modelmapper",
+      "version": "3.2.2"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-batch",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "io.gatling.highcharts:gatling-charts-highcharts",
+      "version": "3.13.1"
+    },
+    {
+      "identifier": "com.aliyun.oss:aliyun-sdk-oss",
+      "version": "3.18.1"
+    },
+    {
+      "identifier": "net.dv8tion:JDA",
+      "version": "5.2.1"
+    },
+    {
+      "identifier": "org.apache.struts:struts2-json-plugin",
+      "version": "6.7.0"
+    },
+    {
+      "identifier": "com.sun.jersey.contribs:jersey-spring",
+      "version": "1.19.4"
+    },
+    {
+      "identifier": "com.googlecode.objectify:objectify",
+      "version": "6.1.2"
+    },
+    {
+      "identifier": "io.dropwizard.metrics:metrics-jcache",
+      "version": "4.2.29"
+    },
+    {
+      "identifier": "tk.mybatis:mapper",
+      "version": "5.0.1"
+    },
+    {
+      "identifier": "com.jakewharton.retrofit:retrofit2-rxjava2-adapter",
+      "version": "1.0.0"
+    },
+    {
+      "identifier": "tk.mybatis:mapper-spring-boot-starter",
+      "version": "5.0.1"
+    },
+    {
+      "identifier": "org.hibernate:hibernate-java8",
+      "version": "5.3.37.Final"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-log4j",
+      "version": "1.3.8.RELEASE"
+    },
+    {
+      "identifier": "org.apache.cxf:cxf-spring-boot-starter-jaxrs",
+      "version": "3.5.9"
+    },
+    {
+      "identifier": "com.dyuproject.protostuff:protostuff-runtime",
+      "version": "1.3.1"
+    },
+    {
+      "identifier": "org.omnifaces:omnifaces",
+      "version": "5.0-M1"
+    },
+    {
+      "identifier": "org.springframework:spring-instrument-tomcat",
+      "version": "4.3.30.RELEASE"
+    },
+    {
+      "identifier": "org.lazyluke:log4jdbc-remix",
+      "version": "0.2.7"
+    },
+    {
+      "identifier": "com.umeng.analytics:analytics",
+      "version": "6.1.4"
+    },
+    {
+      "identifier": "org.jboss.weld.servlet:weld-servlet",
+      "version": "2.4.8.Final"
+    },
+    {
+      "identifier": "org.controlsfx:controlsfx",
+      "version": "11.2.1"
+    },
+    {
+      "identifier": "org.apache.shiro:shiro-cas",
+      "version": "1.13.0"
+    },
+    {
+      "identifier": "com.mangofactory:swagger-springmvc",
+      "version": "1.0.2"
+    },
+    {
+      "identifier": "org.logback-extensions:logback-ext-spring",
+      "version": "0.1.5"
+    },
+    {
+      "identifier": "org.springframework.data:spring-data-rest-hal-browser",
+      "version": "3.3.9.RELEASE"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-activemq",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "joda-time:joda-time-jsptags",
+      "version": "1.1.1"
+    },
+    {
+      "identifier": "org.mule.transports:mule-transport-file",
+      "version": "3.9.0"
+    },
+    {
+      "identifier": "net.sf.ehcache:ehcache-web",
+      "version": "2.0.4"
+    },
+    {
+      "identifier": "org.apache.activemq:activemq-camel",
+      "version": "5.15.16"
+    },
+    {
+      "identifier": "org.apache.hive:hive-jdbc",
+      "version": "4.0.1"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-mustache",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "displaytag:displaytag",
+      "version": "1.2"
+    },
+    {
+      "identifier": "org.mapstruct:mapstruct-processor",
+      "version": "1.6.3"
+    },
+    {
+      "identifier": "com.google.api-client:google-api-client-android",
+      "version": "2.7.0"
+    },
+    {
+      "identifier": "io.dropwizard:dropwizard-assets",
+      "version": "4.0.11"
+    },
+    {
+      "identifier": "org.apache.maven.plugins:maven-compiler-plugin",
+      "version": "4.0.0-beta-1"
+    },
+    {
+      "identifier": "com.google.dexmaker:dexmaker-mockito",
+      "version": "1.2"
+    },
+    {
+      "identifier": "org.sql2o:sql2o",
+      "version": "1.9.0-RC1"
+    },
+    {
+      "identifier": "com.github.bumptech.glide:okhttp3-integration",
+      "version": "5.0.0-rc01"
+    },
+    {
+      "identifier": "com.sparkjava:spark-template-freemarker",
+      "version": "2.7.1"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-remote-shell",
+      "version": "1.5.22.RELEASE"
+    },
+    {
+      "identifier": "com.baomidou:mybatis-plus-boot-starter",
+      "version": "3.5.7"
+    },
+    {
+      "identifier": "net.masterthought:cucumber-reporting",
+      "version": "5.8.4"
+    },
+    {
+      "identifier": "com.google.maps:google-maps-services",
+      "version": "2.2.0"
+    },
+    {
+      "identifier": "com.codeborne:selenide",
+      "version": "7.6.1"
+    },
+    {
+      "identifier": "org.fluentlenium:fluentlenium-assertj",
+      "version": "5.0.4"
+    },
+    {
+      "identifier": "org.primefaces.extensions:primefaces-extensions",
+      "version": "15.0.0-RC1"
+    },
+    {
+      "identifier": "com.googlecode.log4jdbc:log4jdbc",
+      "version": "1.2"
+    },
+    {
+      "identifier": "com.github.axet:kaptcha",
+      "version": "0.0.9"
+    },
+    {
+      "identifier": "io.dropwizard:dropwizard-auth",
+      "version": "4.0.11"
+    },
+    {
+      "identifier": "org.apache.directory.studio:org.apache.commons.io",
+      "version": "2.4"
+    },
+    {
+      "identifier": "org.sitemesh:sitemesh",
+      "version": "3.2.1"
+    },
+    {
+      "identifier": "com.google.apis:google-api-services-drive",
+      "version": "v3-rev20241027-2.0.0"
+    },
+    {
+      "identifier": "org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4",
+      "version": "1.16"
+    },
+    {
+      "identifier": "io.swagger:swagger-jersey2-jaxrs",
+      "version": "1.6.14"
+    },
+    {
+      "identifier": "org.springframework.cloud:spring-cloud-starter-turbine",
+      "version": "1.4.7.RELEASE"
+    },
+    {
+      "identifier": "nz.ac.waikato.cms.weka:weka-stable",
+      "version": "3.8.6"
+    },
+    {
+      "identifier": "org.apache.maven.plugins:maven-surefire-plugin",
+      "version": "3.5.2"
+    },
+    {
+      "identifier": "org.springframework.security:spring-security-cas",
+      "version": "6.4.1"
+    },
+    {
+      "identifier": "net.sf.supercsv:super-csv",
+      "version": "2.4.0"
+    },
+    {
+      "identifier": "com.jfinal:jfinal",
+      "version": "5.2.3"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-data-solr",
+      "version": "2.4.13"
+    },
+    {
+      "identifier": "org.apache.httpcomponents:httpclient-android",
+      "version": "4.3.5.1"
+    },
+    {
+      "identifier": "org.activiti:activiti-modeler",
+      "version": "5.23.0"
+    },
+    {
+      "identifier": "de.codecentric:spring-boot-admin-server-ui",
+      "version": "3.4.1"
+    },
+    {
+      "identifier": "com.jakewharton:disklrucache",
+      "version": "2.0.2"
+    },
+    {
+      "identifier": "com.github.penggle:kaptcha",
+      "version": "2.3.2"
+    },
+    {
+      "identifier": "com.owlike:genson",
+      "version": "1.6"
+    },
+    {
+      "identifier": "org.activiti:activiti-diagram-rest",
+      "version": "5.23.0"
+    },
+    {
+      "identifier": "org.apache.poi:poi-excelant",
+      "version": "5.3.0"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-ws",
+      "version": "1.4.7.RELEASE"
+    },
+    {
+      "identifier": "com.google.apis:google-api-services-youtube",
+      "version": "v3-rev20241203-2.0.0"
+    },
+    {
+      "identifier": "org.jboss.weld:weld-core",
+      "version": "2.4.8.Final"
+    },
+    {
+      "identifier": "com.android.databinding:compiler",
+      "version": "2.3.0"
+    },
+    {
+      "identifier": "org.activiti:activiti-explorer",
+      "version": "5.23.0"
+    },
+    {
+      "identifier": "org.springframework:springloaded",
+      "version": "1.2.8.RELEASE"
+    },
+    {
+      "identifier": "org.apache.storm:storm-kafka",
+      "version": "1.2.4"
+    },
+    {
+      "identifier": "org.apache.oltu.oauth2:org.apache.oltu.oauth2.client",
+      "version": "1.0.2"
+    },
+    {
+      "identifier": "io.socket:socket.io-client",
+      "version": "2.1.1"
+    },
+    {
+      "identifier": "org.springframework.social:spring-social-google",
+      "version": "1.0.0.RELEASE"
+    },
+    {
+      "identifier": "com.jakewharton.picasso:picasso2-okhttp3-downloader",
+      "version": "1.1.0"
+    },
+    {
+      "identifier": "org.spockframework:spock-spring",
+      "version": "2.4-M4-groovy-4.0"
+    },
+    {
+      "identifier": "us.codecraft:webmagic-extension",
+      "version": "1.0.2"
+    },
+    {
+      "identifier": "org.apache.struts:struts2-config-browser-plugin",
+      "version": "6.7.0"
+    },
+    {
+      "identifier": "org.apache.camel:camel-stream",
+      "version": "4.8.2"
+    },
+    {
+      "identifier": "io.vertx:vertx-hazelcast",
+      "version": "5.0.0.CR2"
+    },
+    {
+      "identifier": "org.androidannotations:androidannotations-api",
+      "version": "4.8.0"
+    },
+    {
+      "identifier": "net.imagej:ij",
+      "version": "1.54m"
+    },
+    {
+      "identifier": "com.vdurmont:emoji-java",
+      "version": "5.1.1"
+    },
+    {
+      "identifier": "org.glassfish.jersey.bundles:jaxrs-ri",
+      "version": "3.1.9"
+    },
+    {
+      "identifier": "com.pi4j:pi4j-core",
+      "version": "2.7.0"
+    },
+    {
+      "identifier": "io.dropwizard:dropwizard-hibernate",
+      "version": "4.0.11"
+    },
+    {
+      "identifier": "org.apache.wicket:wicket-spring",
+      "version": "10.2.0"
+    },
+    {
+      "identifier": "org.mybatis:mybatis-ehcache",
+      "version": "1.0.0"
+    },
+    {
+      "identifier": "com.itextpdf.tool:xmlworker",
+      "version": "5.5.13.4"
+    },
+    {
+      "identifier": "org.springframework.cloud:spring-cloud-starter-spectator",
+      "version": "1.4.7.RELEASE"
+    },
+    {
+      "identifier": "org.thymeleaf.extras:thymeleaf-extras-springsecurity3",
+      "version": "3.0.5.RELEASE"
+    },
+    {
+      "identifier": "org.apache.camel:camel-cxf",
+      "version": "3.14.10"
+    },
+    {
+      "identifier": "net.sourceforge.htmlcleaner:htmlcleaner",
+      "version": "2.29"
+    },
+    {
+      "identifier": "org.jacoco:jacoco-maven-plugin",
+      "version": "0.8.12"
+    },
+    {
+      "identifier": "eu.bitwalker:UserAgentUtils",
+      "version": "1.21"
+    },
+    {
+      "identifier": "com.alibaba.rocketmq:rocketmq-client",
+      "version": "3.6.2.Final"
+    },
+    {
+      "identifier": "com.thetransactioncompany:cors-filter",
+      "version": "3.0"
+    },
+    {
+      "identifier": "org.zkoss.zk:zkplus",
+      "version": "10.0.0"
+    },
+    {
+      "identifier": "com.github.dandelion:datatables-jsp",
+      "version": "1.1.0"
+    },
+    {
+      "identifier": "org.hibernate:hibernate-proxool",
+      "version": "5.3.37.Final"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-actuator-docs",
+      "version": "1.5.22.RELEASE"
+    },
+    {
+      "identifier": "com.github.dandelion:datatables-export-itext",
+      "version": "1.1.0"
+    },
+    {
+      "identifier": "org.swinglabs:swing-layout",
+      "version": "1.0.3"
+    },
+    {
+      "identifier": "org.swinglabs:swingx",
+      "version": "1.6.1"
+    },
+    {
+      "identifier": "io.dropwizard:dropwizard-migrations",
+      "version": "4.0.11"
+    },
+    {
+      "identifier": "io.dropwizard:dropwizard-jdbi",
+      "version": "1.3.29"
+    },
+    {
+      "identifier": "org.apache.maven.plugins:maven-shade-plugin",
+      "version": "3.6.0"
+    },
+    {
+      "identifier": "org.jboss.weld.se:weld-se",
+      "version": "2.4.8.Final"
+    },
+    {
+      "identifier": "org.nutz:nutz",
+      "version": "1.r.72"
+    },
+    {
+      "identifier": "com.jolbox:bonecp-spring",
+      "version": "0.8.0.RELEASE"
+    },
+    {
+      "identifier": "net.htmlparser.jericho:jericho-html",
+      "version": "3.4"
+    },
+    {
+      "identifier": "org.richfaces.core:richfaces-core-impl",
+      "version": "4.3.7.Final"
+    },
+    {
+      "identifier": "cn.hutool:hutool-all",
+      "version": "5.8.34"
+    },
+    {
+      "identifier": "com.miglayout:miglayout",
+      "version": "3.7.4"
+    },
+    {
+      "identifier": "org.springframework.webflow:spring-faces",
+      "version": "3.0.1"
+    },
+    {
+      "identifier": "javax.faces:jsf-impl",
+      "version": "1.2_15-06"
+    },
+    {
+      "identifier": "com.google.apis:google-api-services-calendar",
+      "version": "v3-rev20241101-2.0.0"
+    },
+    {
+      "identifier": "org.hibernate:hibernate-tools",
+      "version": "5.3.36.Final"
+    },
+    {
+      "identifier": "com.j256.ormlite:ormlite-jdbc",
+      "version": "6.1"
+    },
+    {
+      "identifier": "org.zkoss.zk:zhtml",
+      "version": "10.0.0"
+    },
+    {
+      "identifier": "fr.ippon.spark.metrics:metrics-spark-reporter",
+      "version": "1.2"
+    },
+    {
+      "identifier": "com.sun.el:el-ri",
+      "version": "3.0.4"
+    },
+    {
+      "identifier": "org.zeroturnaround:zt-zip",
+      "version": "1.17"
+    },
+    {
+      "identifier": "com.restfb:restfb",
+      "version": "2024.14.0"
+    },
+    {
+      "identifier": "org.glassfish.main.extras:glassfish-embedded-all",
+      "version": "7.0.20"
+    },
+    {
+      "identifier": "com.amazonaws:amazon-kinesis-client",
+      "version": "1.15.2"
+    },
+    {
+      "identifier": "org.webjars.bower:jquery",
+      "version": "4.0.0-beta"
+    },
+    {
+      "identifier": "com.hazelcast:hazelcast-hibernate52",
+      "version": "1.3.3"
+    },
+    {
+      "identifier": "org.apache.kafka:kafka_2.9.2",
+      "version": "0.8.2.2"
+    },
+    {
+      "identifier": "com.amazonaws:aws-lambda-java-events",
+      "version": "3.14.0"
+    },
+    {
+      "identifier": "com.trello:rxlifecycle",
+      "version": "1.0"
+    },
+    {
+      "identifier": "com.github.detro.ghostdriver:phantomjsdriver",
+      "version": "1.1.0"
+    },
+    {
+      "identifier": "ru.yandex.qatools.allure:allure-testng-adaptor",
+      "version": "1.5.4"
+    },
+    {
+      "identifier": "org.wildfly.swarm:arquillian",
+      "version": "2018.5.0"
+    },
+    {
+      "identifier": "com.aliyun:aliyun-java-sdk-dysmsapi",
+      "version": "2.2.1"
+    },
+    {
+      "identifier": "org.eclipse.jetty.aggregate:jetty-webapp",
+      "version": "8.1.22.v20160922"
+    },
+    {
+      "identifier": "ch.ethz.ganymed:ganymed-ssh2",
+      "version": "262"
+    },
+    {
+      "identifier": "ar.com.hjg:pngj",
+      "version": "2.1.0"
+    },
+    {
+      "identifier": "org.apache.bsf:bsf-api",
+      "version": "3.1"
+    },
+    {
+      "identifier": "com.github.theborakompanioni:thymeleaf-extras-shiro",
+      "version": "2.1.0"
+    },
+    {
+      "identifier": "info.cukes:cucumber-java8",
+      "version": "1.2.5"
+    },
+    {
+      "identifier": "org.apache.maven:maven-embedder",
+      "version": "4.0.0-rc-1"
+    },
+    {
+      "identifier": "org.jboss.resteasy:resteasy-spring",
+      "version": "4.7.9.Final"
+    },
+    {
+      "identifier": "org.springframework.data:spring-data-jdbc-core",
+      "version": "1.2.1.RELEASE"
+    },
+    {
+      "identifier": "cn.jpush.api:jpush-client",
+      "version": "3.7.7"
+    },
+    {
+      "identifier": "com.annimon:stream",
+      "version": "1.2.2"
+    },
+    {
+      "identifier": "org.kohsuke:github-api",
+      "version": "2.0.0-alpha-2"
+    },
+    {
+      "identifier": "org.jboss.resteasy:resteasy-servlet-initializer",
+      "version": "7.0.0.Alpha4"
+    },
+    {
+      "identifier": "org.apache.camel:camel-blueprint",
+      "version": "2.25.4"
+    },
+    {
+      "identifier": "io.vertx:vertx-rx-java",
+      "version": "5.0.0.CR2"
+    },
+    {
+      "identifier": "com.github.nkzawa:socket.io-client",
+      "version": "0.6.0"
+    },
+    {
+      "identifier": "org.zkoss.zk:zkbind",
+      "version": "10.0.0"
+    },
+    {
+      "identifier": "io.dropwizard.metrics:metrics-ehcache",
+      "version": "4.2.29"
+    },
+    {
+      "identifier": "org.springframework.cloud:spring-cloud-sleuth-zipkin",
+      "version": "3.1.11"
+    },
+    {
+      "identifier": "org.apache.poi:poi-examples",
+      "version": "5.3.0"
+    },
+    {
+      "identifier": "com.twilio.sdk:twilio-java-sdk",
+      "version": "3.3.16"
+    },
+    {
+      "identifier": "org.springframework.cloud:spring-cloud-stream-binder-kafka",
+      "version": "4.2.0"
+    },
+    {
+      "identifier": "org.perf4j:perf4j",
+      "version": "0.9.16"
+    },
+    {
+      "identifier": "net.bull.javamelody:javamelody-core",
+      "version": "2.4.0"
+    },
+    {
+      "identifier": "javax.xml:jaxb-api",
+      "version": "2.0"
+    },
+    {
+      "identifier": "org.apache.camel:camel-http",
+      "version": "4.8.2"
+    },
+    {
+      "identifier": "com.heroku.sdk:heroku-jdbc",
+      "version": "0.1.1"
+    },
+    {
+      "identifier": "com.vaadin:vaadin-compatibility-client-compiled",
+      "version": "8.14.4"
+    },
+    {
+      "identifier": "org.telegram:telegrambots",
+      "version": "6.9.7.1"
+    },
+    {
+      "identifier": "org.eclipse.mylyn.github:org.eclipse.egit.github.core",
+      "version": "2.1.5"
+    },
+    {
+      "identifier": "org.powermock:powermock-classloading-xstream",
+      "version": "2.0.9"
+    },
+    {
+      "identifier": "com.dropbox.core:dropbox-core-sdk",
+      "version": "7.0.0"
+    },
+    {
+      "identifier": "org.wildfly.swarm:monitor",
+      "version": "2018.5.0"
+    },
+    {
+      "identifier": "org.mule.modules:mule-module-json",
+      "version": "3.9.0"
+    },
+    {
+      "identifier": "com.sun.jersey:jersey-grizzly2",
+      "version": "1.19.4"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-jooq",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "com.toedter:jcalendar",
+      "version": "1.4"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-social-facebook",
+      "version": "1.5.22.RELEASE"
+    },
+    {
+      "identifier": "com.jfoenix:jfoenix",
+      "version": "9.0.10"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-data-cassandra",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "com.google.apis:google-api-services-oauth2",
+      "version": "v2-rev20200213-2.0.0"
+    },
+    {
+      "identifier": "com.sparkjava:spark-template-handlebars",
+      "version": "2.7.1"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-jta-atomikos",
+      "version": "2.7.18"
+    },
+    {
+      "identifier": "com.spotify:docker-client",
+      "version": "8.16.0"
+    },
+    {
+      "identifier": "org.hashids:hashids",
+      "version": "1.0.3"
+    },
+    {
+      "identifier": "com.github.kevinsawicki:http-request",
+      "version": "6.0"
+    },
+    {
+      "identifier": "org.apache.accumulo:accumulo-core",
+      "version": "2.1.3"
+    },
+    {
+      "identifier": "com.baomidou:mybatisplus-spring-boot-starter",
+      "version": "1.0.5"
+    },
+    {
+      "identifier": "nz.ac.waikato.cms.weka:weka-dev",
+      "version": "3.9.6"
+    },
+    {
+      "identifier": "net.sf.jxls:jxls-core",
+      "version": "1.0.6"
+    },
+    {
+      "identifier": "com.trello.rxlifecycle2:rxlifecycle",
+      "version": "2.2.2"
+    },
+    {
+      "identifier": "org.springframework:spring-struts",
+      "version": "3.2.18.RELEASE"
+    },
+    {
+      "identifier": "net.tanesha.recaptcha4j:recaptcha4j",
+      "version": "0.0.7"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-data-mongodb-reactive",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "io.vertx:vertx-platform",
+      "version": "2.1.6"
+    },
+    {
+      "identifier": "com.googlecode.ehcache-spring-annotations:ehcache-spring-annotations",
+      "version": "1.2.0"
+    },
+    {
+      "identifier": "org.bitcoinj:bitcoinj-core",
+      "version": "0.17-beta1"
+    },
+    {
+      "identifier": "org.apache.maven.shared:maven-plugin-testing-harness",
+      "version": "1.1"
+    },
+    {
+      "identifier": "com.saucelabs:sauce_junit",
+      "version": "2.1.25"
+    },
+    {
+      "identifier": "org.apache.uima:uimaj-tools",
+      "version": "3.6.0"
+    },
+    {
+      "identifier": "com.qcloud:cos_api",
+      "version": "5.6.238"
+    },
+    {
+      "identifier": "com.netflix.rxjava:rxjava-core",
+      "version": "0.20.7"
+    },
+    {
+      "identifier": "org.apache.felix:org.apache.felix.main",
+      "version": "7.0.5"
+    },
+    {
+      "identifier": "edu.uci.ics:crawler4j",
+      "version": "4.4.0"
+    },
+    {
+      "identifier": "org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4.1",
+      "version": "1.16"
+    },
+    {
+      "identifier": "org.apache.synapse:synapse-core",
+      "version": "3.0.2"
+    },
+    {
+      "identifier": "com.miglayout:miglayout-swing",
+      "version": "11.4.2"
+    },
+    {
+      "identifier": "org.wildfly.swarm:cdi",
+      "version": "2018.5.0"
+    },
+    {
+      "identifier": "com.sparkjava:spark-template-velocity",
+      "version": "2.7.1"
+    },
+    {
+      "identifier": "com.google.appengine.orm:datanucleus-appengine",
+      "version": "2.1.2"
+    },
+    {
+      "identifier": "net.bootsfaces:bootsfaces",
+      "version": "2.0.1"
+    },
+    {
+      "identifier": "org.ansj:ansj_seg",
+      "version": "5.1.6"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-data-neo4j",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "org.grails:grails-test",
+      "version": "6.2.2"
+    },
+    {
+      "identifier": "com.jgoodies:forms",
+      "version": "1.1.0"
+    },
+    {
+      "identifier": "org.ninjaframework:ninja-test-utilities",
+      "version": "7.0.0"
+    },
+    {
+      "identifier": "io.dropwizard:dropwizard-views-freemarker",
+      "version": "4.0.11"
+    },
+    {
+      "identifier": "org.ops4j.pax.exam:pax-exam-container-native",
+      "version": "4.14.0"
+    },
+    {
+      "identifier": "org.testfx:openjfx-monocle",
+      "version": "21.0.2"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-quartz",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "org.apache.karaf.shell:org.apache.karaf.shell.console",
+      "version": "4.4.6"
+    },
+    {
+      "identifier": "net.iharder:base64",
+      "version": "2.3.9"
+    },
+    {
+      "identifier": "org.igniterealtime.smack:smack",
+      "version": "3.2.1"
+    },
+    {
+      "identifier": "org.duelengine:duel-runtime",
+      "version": "0.9.7"
+    },
+    {
+      "identifier": "org.eclipse.paho:org.eclipse.paho.android.service",
+      "version": "1.1.1"
+    },
+    {
+      "identifier": "com.google.gdata:core",
+      "version": "1.47.1"
+    },
+    {
+      "identifier": "com.google.http-client:google-http-client-android",
+      "version": "1.45.2"
+    },
+    {
+      "identifier": "org.hibernate:hibernate-osgi",
+      "version": "5.3.37.Final"
+    },
+    {
+      "identifier": "org.specs:specs",
+      "version": "1.4.3"
+    },
+    {
+      "identifier": "org.processing:core",
+      "version": "3.3.7"
+    },
+    {
+      "identifier": "org.scream3r:jssc",
+      "version": "2.8.0"
+    },
+    {
+      "identifier": "org.apache.oltu.oauth2:org.apache.oltu.oauth2.authzserver",
+      "version": "1.0.2"
+    },
+    {
+      "identifier": "net.glxn:qrgen",
+      "version": "1.4"
+    },
+    {
+      "identifier": "org.jvnet.sorcerer:sorcerer-javac",
+      "version": "0.8"
+    },
+    {
+      "identifier": "org.apache.cxf:cxf-bundle-jaxrs",
+      "version": "2.6.17"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-loader",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "com.ibm.watson.developer_cloud:java-sdk",
+      "version": "6.14.2"
+    },
+    {
+      "identifier": "net.serenity-bdd:serenity-cucumber",
+      "version": "4.2.9"
+    },
+    {
+      "identifier": "net.sourceforge.owlapi:owlapi-distribution",
+      "version": "5.5.1"
+    },
+    {
+      "identifier": "org.springframework.shell:spring-shell",
+      "version": "1.2.0.RELEASE"
+    },
+    {
+      "identifier": "com.netflix.feign:feign-core",
+      "version": "8.18.0"
+    },
+    {
+      "identifier": "net.sf.json-lib:json-lib-ext-spring",
+      "version": "1.0.2"
+    },
+    {
+      "identifier": "com.espertech:esper",
+      "version": "7.1.0"
+    },
+    {
+      "identifier": "org.springframework.cloud:spring-cloud-security",
+      "version": "2.2.5.RELEASE"
+    },
+    {
+      "identifier": "com.ganyo:gcm-server",
+      "version": "1.1.0"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-mobile",
+      "version": "1.5.22.RELEASE"
+    },
+    {
+      "identifier": "io.dropwizard:dropwizard-views-mustache",
+      "version": "4.0.11"
+    },
+    {
+      "identifier": "commons-math:commons-math",
+      "version": "1.2"
+    },
+    {
+      "identifier": "com.amap.api:location",
+      "version": "6.4.7"
+    },
+    {
+      "identifier": "org.apache.wicket:wicket-datetime",
+      "version": "7.18.0"
+    },
+    {
+      "identifier": "org.apache.struts:struts2-sitemesh-plugin",
+      "version": "6.7.0"
+    },
+    {
+      "identifier": "com.github.binarywang:weixin-java-mp",
+      "version": "4.6.8.B"
+    },
+    {
+      "identifier": "com.brsanthu:migbase64",
+      "version": "2.2"
+    },
+    {
+      "identifier": "org.apache.cxf:cxf-rt-rs-service-description",
+      "version": "3.5.9"
+    },
+    {
+      "identifier": "com.github.abel533:mapper",
+      "version": "3.0.1"
+    },
+    {
+      "identifier": "org.ocpsoft.rewrite:rewrite-servlet",
+      "version": "10.0.2.Final"
+    },
+    {
+      "identifier": "org.web3j:core",
+      "version": "4.12.2"
+    },
+    {
+      "identifier": "com.github.ulisesbocchio:jasypt-spring-boot-starter",
+      "version": "3.0.5"
+    },
+    {
+      "identifier": "com.googlecode.flyway:flyway-core",
+      "version": "2.3.1"
+    },
+    {
+      "identifier": "org.glassfish.jersey.containers:jersey-container-jdk-http",
+      "version": "3.1.9"
+    },
+    {
+      "identifier": "com.sun.jersey.contribs:jersey-apache-client",
+      "version": "1.19.4"
+    },
+    {
+      "identifier": "org.igniterealtime.smack:smackx",
+      "version": "3.2.1"
+    },
+    {
+      "identifier": "org.nd4j:nd4j-native-platform",
+      "version": "1.0.0-M2.1"
+    },
+    {
+      "identifier": "com.github.jsimone:webapp-runner",
+      "version": "9.0.27.1"
+    },
+    {
+      "identifier": "org.apache.uima:uimaj-adapter-soap",
+      "version": "2.11.0"
+    },
+    {
+      "identifier": "org.docx4j:docx4j",
+      "version": "6.1.2"
+    },
+    {
+      "identifier": "org.jboss.arquillian.container:arquillian-glassfish-embedded-3.1",
+      "version": "1.0.2"
+    },
+    {
+      "identifier": "org.activiti:activiti-spring-boot-starter-basic",
+      "version": "5.23.0"
+    },
+    {
+      "identifier": "net.sourceforge.stripes:stripes",
+      "version": "1.7.0-beta4"
+    },
+    {
+      "identifier": "org.crazycake:shiro-redis",
+      "version": "3.3.1"
+    },
+    {
+      "identifier": "org.apache.wicket:wicket-auth-roles",
+      "version": "10.2.0"
+    },
+    {
+      "identifier": "com.amazonaws:aws-lambda-java-log4j",
+      "version": "1.0.1"
+    },
+    {
+      "identifier": "org.hibernate:hibernate-spatial",
+      "version": "7.0.0.Beta3"
+    },
+    {
+      "identifier": "org.mortbay.jetty:jetty-management",
+      "version": "6.1.26"
+    },
+    {
+      "identifier": "com.cloudinary:cloudinary-http44",
+      "version": "1.39.0"
+    },
+    {
+      "identifier": "io.protostuff:protostuff-runtime",
+      "version": "1.8.0"
+    },
+    {
+      "identifier": "org.mule.transports:mule-transport-jdbc",
+      "version": "3.9.0"
+    },
+    {
+      "identifier": "com.google.apis:google-api-services-gmail",
+      "version": "v1-rev20240520-2.0.0"
+    },
+    {
+      "identifier": "org.apache.kafka:kafka_2.12",
+      "version": "3.9.0"
+    },
+    {
+      "identifier": "com.yahoofinance-api:YahooFinanceAPI",
+      "version": "3.17.0"
+    },
+    {
+      "identifier": "org.apache.struts:struts2-tiles-plugin",
+      "version": "6.7.0"
+    },
+    {
+      "identifier": "org.tensorflow:proto",
+      "version": "1.15.0"
+    },
+    {
+      "identifier": "org.lwjgl.lwjgl:lwjgl_util",
+      "version": "2.9.3"
+    },
+    {
+      "identifier": "org.avaje:ebean",
+      "version": "2.8.1"
+    },
+    {
+      "identifier": "com.cloudhopper.proxool:proxool",
+      "version": "0.9.1"
+    },
+    {
+      "identifier": "org.apache.maven.plugins:maven-dependency-plugin",
+      "version": "3.8.1"
+    },
+    {
+      "identifier": "org.fxmisc.easybind:easybind",
+      "version": "1.0.3"
+    },
+    {
+      "identifier": "org.springframework.data:spring-data-hadoop",
+      "version": "2.5.0.RELEASE"
+    },
+    {
+      "identifier": "com.corundumstudio.socketio:netty-socketio",
+      "version": "2.0.12"
+    },
+    {
+      "identifier": "org.webjars.bower:bootstrap",
+      "version": "5.3.2"
+    },
+    {
+      "identifier": "io.dubbo.springboot:spring-boot-starter-dubbo",
+      "version": "1.0.0"
+    },
+    {
+      "identifier": "org.seleniumhq.selenium.client-drivers:selenium-java-client-driver",
+      "version": "1.0.2"
+    },
+    {
+      "identifier": "org.apache.camel:camel-sql",
+      "version": "4.8.2"
+    },
+    {
+      "identifier": "com.github.sarxos:webcam-capture",
+      "version": "0.3.12"
+    },
+    {
+      "identifier": "com.liferay.portal:util-bridges",
+      "version": "6.2.5"
+    },
+    {
+      "identifier": "com.google.appengine:appengine-tools-sdk",
+      "version": "2.0.31"
+    },
+    {
+      "identifier": "org.apache.uima:uimaj-document-annotation",
+      "version": "3.6.0"
+    },
+    {
+      "identifier": "com.google.firebase:firebase-admin",
+      "version": "9.4.2"
+    },
+    {
+      "identifier": "org.mule.modules:mule-module-db",
+      "version": "3.9.0"
+    },
+    {
+      "identifier": "de.jensd:fontawesomefx",
+      "version": "8.9"
+    },
+    {
+      "identifier": "net.sf.jung:jung-visualization",
+      "version": "2.1.1"
+    },
+    {
+      "identifier": "io.fabric8:fabric8-arquillian",
+      "version": "3.0.12"
+    },
+    {
+      "identifier": "org.apache.spark:spark-streaming-kafka-0-10_2.11",
+      "version": "2.4.8"
+    },
+    {
+      "identifier": "org.apache.isis.core:isis-core-applib",
+      "version": "2.0.0-M2"
+    },
+    {
+      "identifier": "com.alibaba.citrus:citrus-webx-all",
+      "version": "3.0.14"
+    },
+    {
+      "identifier": "org.codehaus.mojo:exec-maven-plugin",
+      "version": "3.5.0"
+    },
+    {
+      "identifier": "org.jboss.resteasy:resteasy-jettison-provider",
+      "version": "3.15.6.Final"
+    },
+    {
+      "identifier": "com.hp.hpl.jena:arq",
+      "version": "2.8.8"
+    },
+    {
+      "identifier": "com.ocpsoft:prettyfaces-jsf2",
+      "version": "3.3.3"
+    },
+    {
+      "identifier": "org.apache.felix:org.apache.felix.configadmin",
+      "version": "1.9.26"
+    },
+    {
+      "identifier": "com.stripe:stripe-java",
+      "version": "28.2.0-beta.3"
+    },
+    {
+      "identifier": "org.xhtmlrenderer:core-renderer",
+      "version": "R8"
+    },
+    {
+      "identifier": "org.jscience:jscience",
+      "version": "4.3.1"
+    },
+    {
+      "identifier": "org.apache.tapestry:tapestry-javadoc",
+      "version": "5.9.0-preview-2"
+    },
+    {
+      "identifier": "org.grails:grails-scripts",
+      "version": "2.5.6"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-social-twitter",
+      "version": "1.5.22.RELEASE"
+    },
+    {
+      "identifier": "com.sun.mail:smtp",
+      "version": "1.6.7"
+    },
+    {
+      "identifier": "org.glassfish:javax.ejb",
+      "version": "3.1.1"
+    },
+    {
+      "identifier": "org.apache.phoenix:phoenix-core",
+      "version": "5.2.1"
+    },
+    {
+      "identifier": "org.twitter4j:twitter4j-media-support",
+      "version": "4.0.6"
+    },
+    {
+      "identifier": "org.webjars:angular-ui-bootstrap",
+      "version": "2.5.0"
+    },
+    {
+      "identifier": "com.cloudant:cloudant-client",
+      "version": "2.20.1"
+    },
+    {
+      "identifier": "org.apache.maven.plugins:maven-war-plugin",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-jta-bitronix",
+      "version": "2.4.13"
+    },
+    {
+      "identifier": "com.google.apis:google-api-services-sheets",
+      "version": "v4-rev20241008-2.0.0"
+    },
+    {
+      "identifier": "net.serenity-bdd:serenity-jbehave",
+      "version": "1.46.0"
+    },
+    {
+      "identifier": "org.apache.jmeter:ApacheJMeter_java",
+      "version": "5.6.3"
+    },
+    {
+      "identifier": "org.apache.camel:camel-spring-javaconfig",
+      "version": "3.14.10"
+    },
+    {
+      "identifier": "org.springframework.cloud:spring-cloud-sleuth-zipkin-stream",
+      "version": "1.3.6.RELEASE"
+    },
+    {
+      "identifier": "org.apache.chemistry.opencmis:chemistry-opencmis-client-impl",
+      "version": "1.1.0"
+    },
+    {
+      "identifier": "org.apache.camel:camel-ftp",
+      "version": "4.8.2"
+    },
+    {
+      "identifier": "org.javasimon:javasimon-spring",
+      "version": "4.2.0"
+    },
+    {
+      "identifier": "net.simonvt.schematic:schematic-compiler",
+      "version": "0.7.0"
+    },
+    {
+      "identifier": "org.apache.maven.plugins:maven-surefire-report-plugin",
+      "version": "3.5.2"
+    },
+    {
+      "identifier": "com.google.apis:google-api-services-vision",
+      "version": "v1-rev20241115-2.0.0"
+    },
+    {
+      "identifier": "org.jbehave.web:jbehave-web-selenium",
+      "version": "4.0-beta-1"
+    },
+    {
+      "identifier": "org.springframework.integration:spring-integration-amqp",
+      "version": "6.4.0"
+    },
+    {
+      "identifier": "org.eclipse.emf:org.eclipse.emf.ecore",
+      "version": "2.38.0"
+    },
+    {
+      "identifier": "com.amazonaws:amazon-kinesis-producer",
+      "version": "0.15.12"
+    },
+    {
+      "identifier": "org.eclipse.xtend:org.eclipse.xtend.lib",
+      "version": "2.36.0"
+    },
+    {
+      "identifier": "org.apache.camel:camel-cdi",
+      "version": "3.21.5"
+    },
+    {
+      "identifier": "net.sourceforge.tess4j:tess4j",
+      "version": "5.13.0"
+    },
+    {
+      "identifier": "org.apache.uima:uimaj-cpe",
+      "version": "3.6.0"
+    },
+    {
+      "identifier": "uk.co.caprica:vlcj",
+      "version": "5.0.0-M1"
+    },
+    {
+      "identifier": "org.jboss.resteasy:resteasy-validator-provider-11",
+      "version": "3.6.1.SP8"
+    },
+    {
+      "identifier": "org.pircbotx:pircbotx",
+      "version": "2.1"
+    },
+    {
+      "identifier": "org.scalatest:scalatest_2.12",
+      "version": "3.2.19"
+    },
+    {
+      "identifier": "com.googlecode.javacpp:javacpp",
+      "version": "0.7"
+    },
+    {
+      "identifier": "com.jgoodies:jgoodies-forms",
+      "version": "1.9.0"
+    },
+    {
+      "identifier": "net.sourceforge.saxon:saxon",
+      "version": "9.1.0.8"
+    },
+    {
+      "identifier": "com.googlecode:kryo",
+      "version": "1.04"
+    },
+    {
+      "identifier": "org.mule.modules:mule-module-cxf",
+      "version": "3.9.0"
+    },
+    {
+      "identifier": "org.apache.maven.wagon:wagon-ssh",
+      "version": "3.5.3"
+    },
+    {
+      "identifier": "ru.yandex.qatools.allure:allure-junit-adaptor",
+      "version": "1.5.4"
+    },
+    {
+      "identifier": "ru.stqa.selenium:webdriver-factory",
+      "version": "4.4"
+    },
+    {
+      "identifier": "com.alibaba.boot:dubbo-spring-boot-starter",
+      "version": "0.1.2.RELEASE"
+    },
+    {
+      "identifier": "org.apache.oltu.oauth2:org.apache.oltu.oauth2.resourceserver",
+      "version": "1.0.2"
+    },
+    {
+      "identifier": "org.checkerframework:checker",
+      "version": "3.48.3"
+    },
+    {
+      "identifier": "org.eclipse.emf:org.eclipse.emf.common",
+      "version": "2.40.0"
+    },
+    {
+      "identifier": "org.easyb:easyb-core",
+      "version": "1.6"
+    },
+    {
+      "identifier": "au.com.bytecode:opencsv",
+      "version": "2.4"
+    },
+    {
+      "identifier": "biz.aQute.bnd:biz.aQute.bndlib",
+      "version": "7.1.0"
+    },
+    {
+      "identifier": "com.google.apis:google-api-services-plus",
+      "version": "v1-rev20190328-1.30.10"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-data-jdbc",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "com.jakewharton.rxrelay2:rxrelay",
+      "version": "2.1.1"
+    },
+    {
+      "identifier": "com.github.mongobee:mongobee",
+      "version": "0.13"
+    },
+    {
+      "identifier": "com.netflix.feign:feign-jackson",
+      "version": "8.18.0"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-data-gemfire",
+      "version": "1.5.22.RELEASE"
+    },
+    {
+      "identifier": "org.openrdf.sesame:sesame-rio-rdfxml",
+      "version": "4.1.2"
+    },
+    {
+      "identifier": "com.cloudinary:cloudinary-taglib",
+      "version": "2.0.0"
+    },
+    {
+      "identifier": "org.mortbay.jetty:jetty-servlet-tester",
+      "version": "6.1.26"
+    },
+    {
+      "identifier": "com.amazonaws:aws-java-sdk-sns",
+      "version": "1.12.779"
+    },
+    {
+      "identifier": "org.mortbay.jetty:jsp-2.1-jetty",
+      "version": "6.1.26"
+    },
+    {
+      "identifier": "javazoom:jlayer",
+      "version": "1.0.1"
+    },
+    {
+      "identifier": "com.sparkjava:spark-debug-tools",
+      "version": "0.5"
+    },
+    {
+      "identifier": "com.jgoodies:looks",
+      "version": "2.2.2"
+    },
+    {
+      "identifier": "org.apache.directory.studio:org.apache.commons.codec",
+      "version": "1.8"
+    },
+    {
+      "identifier": "org.jboss.marshalling:jboss-marshalling-serial",
+      "version": "2.1.6.Final"
+    },
+    {
+      "identifier": "org.glassfish.tyrus:tyrus-container-grizzly",
+      "version": "1.2.1"
+    },
+    {
+      "identifier": "org.eclipse.jgit:org.eclipse.jgit.http.server",
+      "version": "7.1.0.202411261347-r"
+    },
+    {
+      "identifier": "com.google.guava:guava-collections",
+      "version": "r03"
+    },
+    {
+      "identifier": "org.apache.camel:camel-bindy",
+      "version": "4.8.2"
+    },
+    {
+      "identifier": "com.artofsolving:jodconverter",
+      "version": "2.2.1"
+    },
+    {
+      "identifier": "org.xhtmlrenderer:flying-saucer-pdf",
+      "version": "9.11.2"
+    },
+    {
+      "identifier": "cc.mallet:mallet",
+      "version": "2.0.8"
+    },
+    {
+      "identifier": "org.springframework.ws:spring-ws-security",
+      "version": "4.0.11"
+    },
+    {
+      "identifier": "org.apache.camel:camel-mail",
+      "version": "4.8.2"
+    },
+    {
+      "identifier": "org.apache.mina:mina-integration-beans",
+      "version": "2.1.9"
+    },
+    {
+      "identifier": "org.apache.uima:uimaj-adapter-vinci",
+      "version": "3.6.0"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-hornetq",
+      "version": "1.4.7.RELEASE"
+    },
+    {
+      "identifier": "org.apache.struts:struts-extras",
+      "version": "1.3.10"
+    },
+    {
+      "identifier": "io.qameta.allure:allure-testng",
+      "version": "2.29.1"
+    },
+    {
+      "identifier": "org.openid4java:openid4java",
+      "version": "1.0.0"
+    },
+    {
+      "identifier": "com.google.apis:google-api-services-compute",
+      "version": "beta-rev20241112-2.0.0"
+    },
+    {
+      "identifier": "org.jetbrains.spek:spek-api",
+      "version": "1.1.5"
+    },
+    {
+      "identifier": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider",
+      "version": "2.18.2"
+    },
+    {
+      "identifier": "org.glassfish.extras:glassfish-embedded-all",
+      "version": "3.1.1"
+    },
+    {
+      "identifier": "org.glassfish.jersey.containers:jersey-container-jetty-servlet",
+      "version": "3.1.9"
+    },
+    {
+      "identifier": "org.facebook4j:facebook4j-core",
+      "version": "2.4.13"
+    },
+    {
+      "identifier": "org.msgpack:jackson-dataformat-msgpack",
+      "version": "0.9.8"
+    },
+    {
+      "identifier": "com.mortennobel:java-image-scaling",
+      "version": "0.8.6"
+    },
+    {
+      "identifier": "com.google.cloud.dataflow:google-cloud-dataflow-java-sdk-all",
+      "version": "2.5.0"
+    },
+    {
+      "identifier": "org.eclipse.jetty:jetty-start",
+      "version": "12.1.0.alpha0"
+    },
+    {
+      "identifier": "com.notnoop.apns:apns",
+      "version": "1.0.0.Beta6"
+    },
+    {
+      "identifier": "org.mongojack:mongojack",
+      "version": "5.0.2"
+    },
+    {
+      "identifier": "edu.stanford.nlp:stanford-parser",
+      "version": "3.9.2"
+    },
+    {
+      "identifier": "com.alibaba:arouter-compiler",
+      "version": "1.5.2"
+    },
+    {
+      "identifier": "com.liferay.portal:com.liferay.util.taglib",
+      "version": "25.3.0"
+    },
+    {
+      "identifier": "com.graphql-java:graphql-java-tools",
+      "version": "5.2.4"
+    },
+    {
+      "identifier": "org.apache.sanselan:sanselan",
+      "version": "0.97-incubator"
+    },
+    {
+      "identifier": "com.yammer.dropwizard:dropwizard-testing",
+      "version": "0.6.2"
+    },
+    {
+      "identifier": "org.springframework.security:spring-security-core-tiger",
+      "version": "2.0.8.RELEASE"
+    },
+    {
+      "identifier": "tw.edu.ntu.csie:libsvm",
+      "version": "3.35"
+    },
+    {
+      "identifier": "org.glassfish.extras:glassfish-embedded-web",
+      "version": "3.1.1"
+    },
+    {
+      "identifier": "io.spring.gradle:dependency-management-plugin",
+      "version": "1.1.6"
+    },
+    {
+      "identifier": "org.sonarsource.scanner.maven:sonar-maven-plugin",
+      "version": "5.0.0.4389"
+    },
+    {
+      "identifier": "org.ocpsoft.rewrite:rewrite-config-prettyfaces",
+      "version": "10.0.2.Final"
+    },
+    {
+      "identifier": "org.jboss.resteasy:resteasy-netty",
+      "version": "3.15.6.Final"
+    },
+    {
+      "identifier": "com.jgeppert.struts2.jquery:struts2-jquery-plugin",
+      "version": "5.0.7"
+    },
+    {
+      "identifier": "org.codehaus.jackson:jackson-smile",
+      "version": "1.9.13"
+    },
+    {
+      "identifier": "org.eclipse.emf:org.eclipse.emf.ecore.xmi",
+      "version": "2.38.0"
+    },
+    {
+      "identifier": "org.openrdf.sesame:sesame-runtime",
+      "version": "4.1.2"
+    },
+    {
+      "identifier": "org.mortbay.jetty:jetty-client",
+      "version": "6.1.26"
+    },
+    {
+      "identifier": "org.springframework.social:spring-social-facebook-web",
+      "version": "2.0.3.RELEASE"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-data-couchbase",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "com.hankcs:hanlp",
+      "version": "portable-1.8.5"
+    },
+    {
+      "identifier": "org.apache.uima:uimaj-bootstrap",
+      "version": "3.6.0"
+    },
+    {
+      "identifier": "com.twilio.sdk:twilio",
+      "version": "10.6.4"
+    },
+    {
+      "identifier": "org.slick2d:slick2d-core",
+      "version": "1.0.2"
+    },
+    {
+      "identifier": "org.mybatis:mybatis-guice",
+      "version": "4.0.0"
+    },
+    {
+      "identifier": "org.apache.cxf:cxf-bundle",
+      "version": "2.6.17"
+    },
+    {
+      "identifier": "org.springframework.batch:spring-batch-integration",
+      "version": "5.2.0"
+    },
+    {
+      "identifier": "io.github.openfeign:feign-jackson",
+      "version": "13.5"
+    },
+    {
+      "identifier": "org.apache.tapestry:tapestry-hibernate",
+      "version": "5.9.0-preview-2"
+    },
+    {
+      "identifier": "org.jvnet.jax-ws-commons.spring:jaxws-spring",
+      "version": "1.9"
+    },
+    {
+      "identifier": "org.hibernate:hibernate-hikaricp",
+      "version": "7.0.0.Beta3"
+    },
+    {
+      "identifier": "com.amap.api:search",
+      "version": "9.7.1"
+    },
+    {
+      "identifier": "io.gsonfire:gson-fire",
+      "version": "1.9.0"
+    },
+    {
+      "identifier": "org.apache.uima:jVinci",
+      "version": "3.6.0"
+    },
+    {
+      "identifier": "org.apache.camel:camel-servlet-starter",
+      "version": "2.25.4"
+    },
+    {
+      "identifier": "org.apache.wink:wink-client",
+      "version": "1.4"
+    },
+    {
+      "identifier": "com.gwtplatform:gwtp-mvp-client",
+      "version": "1.6"
+    },
+    {
+      "identifier": "org.twdata.maven:mojo-executor",
+      "version": "2.4.1-m2"
+    },
+    {
+      "identifier": "com.whalin:Memcached-Java-Client",
+      "version": "3.0.2"
+    },
+    {
+      "identifier": "org.functionaljava:functionaljava",
+      "version": "5.0"
+    },
+    {
+      "identifier": "com.orientechnologies:orientdb-graphdb",
+      "version": "3.2.36"
+    },
+    {
+      "identifier": "org.apache.deltaspike.cdictrl:deltaspike-cdictrl-weld",
+      "version": "2.0.0"
+    },
+    {
+      "identifier": "org.apache.camel:camel-xstream",
+      "version": "3.21.5"
+    },
+    {
+      "identifier": "io.reactivex:rxkotlin",
+      "version": "1.0.0"
+    },
+    {
+      "identifier": "org.apache.directory.server:apacheds-all",
+      "version": "2.0.0.AM27"
+    },
+    {
+      "identifier": "com.github.vladimir-bukhtoyarov:bucket4j-jcache",
+      "version": "8.0.1"
+    },
+    {
+      "identifier": "com.yammer.dropwizard:dropwizard-views",
+      "version": "0.6.2"
+    },
+    {
+      "identifier": "io.prometheus:simpleclient_dropwizard",
+      "version": "0.16.0"
+    },
+    {
+      "identifier": "com.aliyun.openservices:ons-client",
+      "version": "1.9.4.Final"
+    },
+    {
+      "identifier": "ai.api:libai",
+      "version": "1.6.12"
+    },
+    {
+      "identifier": "uk.co.jemos.podam:podam",
+      "version": "8.0.2.RELEASE"
+    },
+    {
+      "identifier": "org.apache.camel:camel-csv",
+      "version": "4.8.2"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-artemis",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "com.googlecode.catch-exception:catch-exception",
+      "version": "1.2.0"
+    },
+    {
+      "identifier": "io.vertx:vertx-lang-js",
+      "version": "3.9.16"
+    },
+    {
+      "identifier": "org.glassfish.tyrus.bundles:tyrus-standalone-client",
+      "version": "2.2.0"
+    },
+    {
+      "identifier": "com.alipay.sdk:alipay-sdk-java",
+      "version": "4.40.8.ALL"
+    },
+    {
+      "identifier": "org.springframework.cloud:spring-cloud-netflix-hystrix-stream",
+      "version": "2.2.10.RELEASE"
+    },
+    {
+      "identifier": "com.amazonaws:aws-java-sdk-lambda",
+      "version": "1.12.779"
+    },
+    {
+      "identifier": "org.swinglabs.swingx:swingx-all",
+      "version": "1.6.5-1"
+    },
+    {
+      "identifier": "org:jaudiotagger",
+      "version": "2.0.3"
+    },
+    {
+      "identifier": "org.axonframework:axon-core",
+      "version": "3.4.4"
+    },
+    {
+      "identifier": "com.vimalselvam:cucumber-extentsreport",
+      "version": "3.1.1"
+    },
+    {
+      "identifier": "org.springframework.ws:spring-ws-support",
+      "version": "4.0.11"
+    },
+    {
+      "identifier": "org.apache.sling:org.apache.sling.servlets.post",
+      "version": "2.6.0"
+    },
+    {
+      "identifier": "net.serenity-bdd:serenity-rest-assured",
+      "version": "4.2.9"
+    },
+    {
+      "identifier": "org.springmodules:spring-modules-validation",
+      "version": "0.8a"
+    },
+    {
+      "identifier": "org.apache.flink:flink-streaming-java_2.10",
+      "version": "1.3.3"
+    },
+    {
+      "identifier": "org.zkoss.zk:zkmax",
+      "version": "3.6.3"
+    },
+    {
+      "identifier": "org.glassfish:javax.servlet.jsp",
+      "version": "3.1.1"
+    },
+    {
+      "identifier": "org.apache.camel:camel-jackson-starter",
+      "version": "2.25.4"
+    },
+    {
+      "identifier": "com.google.code.morphia:morphia",
+      "version": "0.104"
+    },
+    {
+      "identifier": "org.mybatis:mybatis-typehandlers-jsr310",
+      "version": "1.0.2"
+    },
+    {
+      "identifier": "org.glassfish:javax.servlet.jsp.jstl",
+      "version": "3.1.1"
+    },
+    {
+      "identifier": "com.google.code.geocoder-java:geocoder-java",
+      "version": "0.16"
+    },
+    {
+      "identifier": "com.nhaarman.listviewanimations:lib-manipulation",
+      "version": "3.1.0"
+    },
+    {
+      "identifier": "org.jboss.resteasy:resteasy-guice",
+      "version": "4.7.9.Final"
+    },
+    {
+      "identifier": "org.springframework.security.extensions:spring-security-saml2-core",
+      "version": "1.0.10.RELEASE"
+    },
+    {
+      "identifier": "org.apache.hadoop:hadoop-mapreduce-examples",
+      "version": "3.4.1"
+    },
+    {
+      "identifier": "org.apache.ignite:ignite-spring",
+      "version": "2.16.0"
+    },
+    {
+      "identifier": "io.reactivex:rxjava-math",
+      "version": "1.0.0"
+    },
+    {
+      "identifier": "com.maxmind.geoip:geoip-api",
+      "version": "1.3.1"
+    },
+    {
+      "identifier": "me.prettyprint:hector-core",
+      "version": "1.0-5"
+    },
+    {
+      "identifier": "com.google.gwt.gwtmockito:gwtmockito",
+      "version": "1.1.9"
+    },
+    {
+      "identifier": "org.springframework.cloud:spring-cloud-netflix-sidecar",
+      "version": "2.2.10.RELEASE"
+    },
+    {
+      "identifier": "com.datastax.cassandra:cassandra-driver-extras",
+      "version": "3.11.5"
+    },
+    {
+      "identifier": "com.couchbase.client:couchbase-client",
+      "version": "1.4.13"
+    },
+    {
+      "identifier": "org.checkerframework:jdk8",
+      "version": "3.3.0"
+    },
+    {
+      "identifier": "org.simpleframework:simple",
+      "version": "5.1.6"
+    },
+    {
+      "identifier": "info.bliki.wiki:bliki-core",
+      "version": "3.1.0"
+    },
+    {
+      "identifier": "org.pcap4j:pcap4j-core",
+      "version": "2.0.0-alpha.6"
+    },
+    {
+      "identifier": "com.google.apis:google-api-services-youtubeAnalytics",
+      "version": "v2-rev20230704-2.0.0"
+    },
+    {
+      "identifier": "com.miglayout:miglayout-javafx",
+      "version": "11.4.2"
+    },
+    {
+      "identifier": "org.apache.storm:storm-hdfs",
+      "version": "2.7.1"
+    },
+    {
+      "identifier": "com.baidu.unbiz:fluent-validator",
+      "version": "1.0.9"
+    },
+    {
+      "identifier": "com.baomidou:mybatis-plus-generator",
+      "version": "3.5.7"
+    },
+    {
+      "identifier": "com.jidesoft:jide-oss",
+      "version": "3.6.18"
+    },
+    {
+      "identifier": "org.glassfish.jersey.ext:jersey-declarative-linking",
+      "version": "3.1.9"
+    },
+    {
+      "identifier": "org.wildfly.swarm:jpa",
+      "version": "2018.5.0"
+    },
+    {
+      "identifier": "org.apache.struts:struts2-dojo-plugin",
+      "version": "2.3.37"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-data-redis-reactive",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "com.github.tobato:fastdfs-client",
+      "version": "1.27.2"
+    },
+    {
+      "identifier": "org.joml:joml",
+      "version": "1.10.8"
+    },
+    {
+      "identifier": "com.google.endpoints:endpoints-framework",
+      "version": "2.0.16"
+    },
+    {
+      "identifier": "org.apache.hadoop:hadoop-nfs",
+      "version": "3.4.1"
+    },
+    {
+      "identifier": "org.passay:passay",
+      "version": "1.6.6"
+    },
+    {
+      "identifier": "com.sencha.gxt:gxt",
+      "version": "3.1.1"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-data-ldap",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "io.springfox:springfox-staticdocs",
+      "version": "2.6.1"
+    },
+    {
+      "identifier": "com.ckeditor:ckeditor-java-core",
+      "version": "3.5.3"
+    },
+    {
+      "identifier": "com.janeluo:ikanalyzer",
+      "version": "2012_u6"
+    },
+    {
+      "identifier": "org.apache.opennlp:opennlp-uima",
+      "version": "2.5.1"
+    },
+    {
+      "identifier": "org.apache.camel:camel-restlet",
+      "version": "2.25.4"
+    },
+    {
+      "identifier": "org.springframework.integration:spring-integration-xml",
+      "version": "6.4.0"
+    },
+    {
+      "identifier": "com.novell.ldap:jldap",
+      "version": "2009-10-07"
+    },
+    {
+      "identifier": "org.springframework.integration:spring-integration-ftp",
+      "version": "6.4.0"
+    },
+    {
+      "identifier": "org.glassfish.hk2:guice-bridge",
+      "version": "4.0.0-M3"
+    },
+    {
+      "identifier": "org.tinyjee.jgraphx:jgraphx",
+      "version": "3.4.1.3"
+    },
+    {
+      "identifier": "net.imglib2:imglib2",
+      "version": "7.1.4"
+    },
+    {
+      "identifier": "com.hubspot.dropwizard:dropwizard-guice",
+      "version": "1.3.5.0"
+    },
+    {
+      "identifier": "org.springframework.data:spring-data-neo4j-rest",
+      "version": "3.4.6.RELEASE"
+    },
+    {
+      "identifier": "org.apache.lucene:lucene-snowball",
+      "version": "3.0.3"
+    },
+    {
+      "identifier": "io.dropwizard:dropwizard-metrics-graphite",
+      "version": "4.0.11"
+    },
+    {
+      "identifier": "nu.pattern:opencv",
+      "version": "2.4.9-7"
+    },
+    {
+      "identifier": "org.jooq:jool",
+      "version": "0.9.15"
+    },
+    {
+      "identifier": "fr.avianey.com.viewpagerindicator:library",
+      "version": "2.4.1.1"
+    },
+    {
+      "identifier": "org.springframework.cloud:spring-cloud-config-monitor",
+      "version": "4.2.0"
+    },
+    {
+      "identifier": "com.databricks:spark-csv_2.10",
+      "version": "1.5.0"
+    },
+    {
+      "identifier": "org.apache.solr:solr-cell",
+      "version": "8.11.4"
+    },
+    {
+      "identifier": "org.apache.jclouds.driver:jclouds-sshj",
+      "version": "2.6.0"
+    },
+    {
+      "identifier": "org.jasypt:jasypt-spring31",
+      "version": "1.9.3"
+    },
+    {
+      "identifier": "org.javasimon:javasimon-javaee",
+      "version": "4.2.0"
+    },
+    {
+      "identifier": "com.github.briandilley.jsonrpc4j:jsonrpc4j",
+      "version": "1.6"
+    },
+    {
+      "identifier": "org.jgrapht:jgrapht-ext",
+      "version": "1.5.2"
+    },
+    {
+      "identifier": "de.odysseus.juel:juel-impl",
+      "version": "2.2.7"
+    },
+    {
+      "identifier": "org.wso2.carbon:org.wso2.carbon.core",
+      "version": "4.10.22"
+    },
+    {
+      "identifier": "org.apache.flink:flink-clients",
+      "version": "2.0-preview1"
+    },
+    {
+      "identifier": "org.jbehave:jbehave-spring",
+      "version": "5.2.0"
+    },
+    {
+      "identifier": "com.jakewharton.scalpel:scalpel",
+      "version": "1.1.2"
+    },
+    {
+      "identifier": "org.pcap4j:pcap4j-packetfactory-static",
+      "version": "2.0.0-alpha.6"
+    },
+    {
+      "identifier": "ru.yandex.qatools.ashot:ashot",
+      "version": "1.5.4"
+    },
+    {
+      "identifier": "net.javacrumbs.json-unit:json-unit",
+      "version": "4.1.0"
+    },
+    {
+      "identifier": "org.testfx:testfx-legacy",
+      "version": "4.0.8-alpha"
+    },
+    {
+      "identifier": "org.eclipse.californium:californium-core",
+      "version": "3.13.0"
+    },
+    {
+      "identifier": "org.apache.httpcomponents:httpcore-ab",
+      "version": "4.4.16"
+    },
+    {
+      "identifier": "com.saucelabs:sauce_testng",
+      "version": "2.1.25"
+    },
+    {
+      "identifier": "io.github.openfeign:feign-gson",
+      "version": "13.5"
+    },
+    {
+      "identifier": "org.apache.maven.plugins:maven-jar-plugin",
+      "version": "4.0.0-beta-1"
+    },
+    {
+      "identifier": "com.atlassian.commonmark:commonmark-ext-gfm-tables",
+      "version": "0.17.0"
+    },
+    {
+      "identifier": "org.webjars:angular-ui-router",
+      "version": "1.0.30"
+    },
+    {
+      "identifier": "org.jboss.resteasy:async-http-servlet-3.0",
+      "version": "3.1.0.Beta2"
+    },
+    {
+      "identifier": "javax.help:javahelp",
+      "version": "2.0.05"
+    },
+    {
+      "identifier": "com.github.bumptech.glide:okhttp-integration",
+      "version": "5.0.0-rc01"
+    },
+    {
+      "identifier": "org.pac4j:pac4j-oauth",
+      "version": "6.1.0"
+    },
+    {
+      "identifier": "org.apache.hadoop:hadoop-yarn-applications-distributedshell",
+      "version": "3.4.1"
+    },
+    {
+      "identifier": "org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven-archive",
+      "version": "3.3.2"
+    },
+    {
+      "identifier": "org.glassfish:javax.jms",
+      "version": "3.1.1"
+    },
+    {
+      "identifier": "com.amazon.alexa:alexa-skills-kit",
+      "version": "1.8.1"
+    },
+    {
+      "identifier": "com.googlecode.gwtquery:gwtquery",
+      "version": "1.5-beta1"
+    },
+    {
+      "identifier": "org.apache.deltaspike.modules:deltaspike-data-module-impl",
+      "version": "2.0.0"
+    },
+    {
+      "identifier": "org.apache.camel:camel-jpa",
+      "version": "4.8.2"
+    },
+    {
+      "identifier": "net.sf.dozer:dozer-spring",
+      "version": "5.5.1"
+    },
+    {
+      "identifier": "org.glassfish:javax.security.auth.message",
+      "version": "3.1.1"
+    },
+    {
+      "identifier": "com.paypal.sdk:rest-api-sdk",
+      "version": "1.14.0"
+    },
+    {
+      "identifier": "org.mortbay.jetty:jetty-naming",
+      "version": "6.1.26"
+    },
+    {
+      "identifier": "org.apache.tomee:javaee-api",
+      "version": "8.0-6"
+    },
+    {
+      "identifier": "org.mule.modules:mule-module-sxc",
+      "version": "3.9.0"
+    },
+    {
+      "identifier": "com.sparkjava:spark-template-mustache",
+      "version": "2.7.1"
+    },
+    {
+      "identifier": "org.springframework.statemachine:spring-statemachine-core",
+      "version": "4.0.0"
+    },
+    {
+      "identifier": "org.apache.camel:camel-swagger-java-starter",
+      "version": "2.25.4"
+    },
+    {
+      "identifier": "org.kohsuke.stapler:json-lib",
+      "version": "2.1-rev6"
+    },
+    {
+      "identifier": "eu.codearte.catch-exception:catch-exception",
+      "version": "2.0"
+    },
+    {
+      "identifier": "org.sikuli:sikuli-api",
+      "version": "1.2.0"
+    },
+    {
+      "identifier": "org.apache.flink:flink-clients_2.11",
+      "version": "1.14.6"
+    },
+    {
+      "identifier": "woodstox:wstx-asl",
+      "version": "3.2.7"
+    },
+    {
+      "identifier": "net.java.dev.swing-layout:swing-layout",
+      "version": "1.0.2"
+    },
+    {
+      "identifier": "org.apache.felix:org.apache.felix.eventadmin",
+      "version": "1.6.4"
+    },
+    {
+      "identifier": "org.bouncycastle:bcpg-jdk16",
+      "version": "1.46"
+    },
+    {
+      "identifier": "com.googlecode.rapid-framework:rapid-core",
+      "version": "4.0.5"
+    },
+    {
+      "identifier": "org.jfarcand:jersey-ahc-client",
+      "version": "1.0.5"
+    },
+    {
+      "identifier": "org.springframework.integration:spring-integration-ip",
+      "version": "6.4.0"
+    },
+    {
+      "identifier": "io.vertx:vertx-lang-groovy",
+      "version": "5.0.0.CR2"
+    },
+    {
+      "identifier": "io.cucumber:cucumber-spring",
+      "version": "7.20.1"
+    },
+    {
+      "identifier": "com.graphql-java:graphql-spring-boot-starter",
+      "version": "5.0.2"
+    },
+    {
+      "identifier": "com.dangdang:sharding-jdbc-core",
+      "version": "1.5.4.1"
+    },
+    {
+      "identifier": "org.wildfly.arquillian:wildfly-arquillian-container-managed",
+      "version": "5.1.0.Beta7"
+    },
+    {
+      "identifier": "org.apache.maven.plugins:maven-assembly-plugin",
+      "version": "3.7.1"
+    },
+    {
+      "identifier": "com.google.code.p.arat:rat-lib",
+      "version": "0.5.1"
+    },
+    {
+      "identifier": "org.apache.mahout:mahout-examples",
+      "version": "0.13.0"
+    },
+    {
+      "identifier": "com.github.fommil.netlib:core",
+      "version": "1.1.2"
+    },
+    {
+      "identifier": "com.amazonaws:aws-java-sdk-ses",
+      "version": "1.12.779"
+    },
+    {
+      "identifier": "org.jasig.cas:cas-server-webapp-support",
+      "version": "4.1.10"
+    },
+    {
+      "identifier": "org.apache.felix:org.apache.felix.ipojo.annotations",
+      "version": "1.13.0"
+    },
+    {
+      "identifier": "org.b3log:latke",
+      "version": "2.4.33"
+    },
+    {
+      "identifier": "com.j2html:j2html",
+      "version": "1.6.0"
+    },
+    {
+      "identifier": "org.apache.hadoop:hadoop-rumen",
+      "version": "3.4.1"
+    },
+    {
+      "identifier": "com.github.stuxuhai:jpinyin",
+      "version": "1.1.8"
+    },
+    {
+      "identifier": "org.nd4j:nd4j-x86",
+      "version": "0.4-rc3.8"
+    },
+    {
+      "identifier": "org.springframework.cloud:spring-cloud-starter-turbine-stream",
+      "version": "1.4.7.RELEASE"
+    },
+    {
+      "identifier": "org.hibernate:hibernate-search-analyzers",
+      "version": "4.5.3.Final"
+    },
+    {
+      "identifier": "ro.isdc.wro4j:wro4j-core",
+      "version": "2.1.1"
+    },
+    {
+      "identifier": "com.sun.jersey.contribs.jersey-oauth:oauth-signature",
+      "version": "1.19.4"
+    },
+    {
+      "identifier": "org.apache.hadoop:zookeeper",
+      "version": "3.3.1"
+    },
+    {
+      "identifier": "io.vertx:vertx-config-yaml",
+      "version": "5.0.0.CR2"
+    },
+    {
+      "identifier": "com.twitter:hbc-twitter4j",
+      "version": "2.2.0"
+    },
+    {
+      "identifier": "se.akerfeldt:okhttp-signpost",
+      "version": "1.1.0"
+    },
+    {
+      "identifier": "com.cybozu.labs:langdetect",
+      "version": "1.1-20120112"
+    },
+    {
+      "identifier": "org.scijava:scijava-common",
+      "version": "2.99.0"
+    },
+    {
+      "identifier": "fr.inria.gforge.spoon:spoon-core",
+      "version": "11.1.1-beta-17"
+    },
+    {
+      "identifier": "org.lwjgl:lwjgl-glfw",
+      "version": "3.3.4"
+    },
+    {
+      "identifier": "org.jboss.as:jboss-as-arquillian-container-managed",
+      "version": "7.2.0.Final"
+    },
+    {
+      "identifier": "org.apache.jmeter:ApacheJMeter_http",
+      "version": "5.6.3"
+    },
+    {
+      "identifier": "io.dropwizard:dropwizard-spdy",
+      "version": "0.9.3"
+    },
+    {
+      "identifier": "com.xiaoleilu:hutool-all",
+      "version": "3.3.2"
+    },
+    {
+      "identifier": "com.aerospike:aerospike-client",
+      "version": "7.2.2"
+    },
+    {
+      "identifier": "de.codecentric:spring-boot-admin-server-ui-login",
+      "version": "1.5.7"
+    },
+    {
+      "identifier": "com.sun.jersey.contribs.jersey-oauth:oauth-client",
+      "version": "1.19.4"
+    },
+    {
+      "identifier": "com.mpatric:mp3agic",
+      "version": "0.9.1"
+    },
+    {
+      "identifier": "com.google.mockwebserver:mockwebserver",
+      "version": "20130706"
+    },
+    {
+      "identifier": "org.eclipse.tycho:org.eclipse.jdt.core",
+      "version": "3.13.102.v20180320-1701_BETA_JAVA10"
+    },
+    {
+      "identifier": "org.glassfish:javax.resource",
+      "version": "3.1.1"
+    },
+    {
+      "identifier": "org.springframework.integration:spring-integration-event",
+      "version": "6.4.0"
+    },
+    {
+      "identifier": "org.graphstream:gs-ui",
+      "version": "1.3"
+    },
+    {
+      "identifier": "org.ostermiller:utils",
+      "version": "1.07.00"
+    },
+    {
+      "identifier": "org.encog:encog-core",
+      "version": "3.4"
+    },
+    {
+      "identifier": "com.googlecode.disruptor:disruptor",
+      "version": "2.10.4"
+    },
+    {
+      "identifier": "ca.uhn.hapi:hapi-structures-v25",
+      "version": "2.5.1"
+    },
+    {
+      "identifier": "org.drools:drools-spring",
+      "version": "5.6.0.Final"
+    },
+    {
+      "identifier": "org.scannotation:scannotation",
+      "version": "1.0.3"
+    },
+    {
+      "identifier": "com.vaadin:vaadin-cdi",
+      "version": "15.1.0"
+    },
+    {
+      "identifier": "org.lwjgl:lwjgl-opengl",
+      "version": "3.3.4"
+    },
+    {
+      "identifier": "org.apache.camel:camel-quartz",
+      "version": "4.8.2"
+    },
+    {
+      "identifier": "org.apache.cxf:cxf-rt-rs-security-cors",
+      "version": "3.5.9"
+    },
+    {
+      "identifier": "co.paralleluniverse:quasar-core",
+      "version": "0.8.0"
+    },
+    {
+      "identifier": "com.github.samtools:htsjdk",
+      "version": "4.1.3"
+    },
+    {
+      "identifier": "com.nhaarman.listviewanimations:lib-core-slh",
+      "version": "3.1.0"
+    },
+    {
+      "identifier": "io.airlift:bootstrap",
+      "version": "291"
+    },
+    {
+      "identifier": "org.glassfish:javax.security.jacc",
+      "version": "3.1.1"
+    },
+    {
+      "identifier": "com.coravy.hudson.plugins.github:github",
+      "version": "0.1"
+    },
+    {
+      "identifier": "org.fxmisc.richtext:richtextfx",
+      "version": "0.11.4"
+    },
+    {
+      "identifier": "org.antlr:antlr4-maven-plugin",
+      "version": "4.13.2"
+    },
+    {
+      "identifier": "org.sakaiproject.kernel:sakai-kernel-util",
+      "version": "23.3"
+    },
+    {
+      "identifier": "com.amap.api:3dmap",
+      "version": "10.0.600"
+    },
+    {
+      "identifier": "com.google.template:soy",
+      "version": "2024-02-26"
+    },
+    {
+      "identifier": "io.vertx:vertx-rx-java2",
+      "version": "5.0.0.CR2"
+    },
+    {
+      "identifier": "org.zeromq:jzmq",
+      "version": "3.1.0"
+    },
+    {
+      "identifier": "org.commonjava.googlecode.markdown4j:markdown4j",
+      "version": "2.2-cj-1.1"
+    },
+    {
+      "identifier": "org.glassfish:javax.enterprise.deploy",
+      "version": "3.1.1"
+    },
+    {
+      "identifier": "org.zeroturnaround:zt-exec",
+      "version": "1.12"
+    },
+    {
+      "identifier": "org.apache.avro:avro-tools",
+      "version": "1.11.4"
+    },
+    {
+      "identifier": "org.apache.opennlp:opennlp-maxent",
+      "version": "3.0.3"
+    },
+    {
+      "identifier": "com.weibo:motan-core",
+      "version": "1.2.4"
+    },
+    {
+      "identifier": "org.carrot2:morfologik-stemming",
+      "version": "2.1.9"
+    },
+    {
+      "identifier": "net.sourceforge.dynamicreports:dynamicreports-core",
+      "version": "6.20.1"
+    },
+    {
+      "identifier": "axis:axis-ant",
+      "version": "1.4"
+    },
+    {
+      "identifier": "org.richfaces:richfaces",
+      "version": "4.5.17.Final"
+    },
+    {
+      "identifier": "com.thinkaurelius.titan:titan-core",
+      "version": "1.0.0"
+    },
+    {
+      "identifier": "org.immutables:gson",
+      "version": "2.10.1"
+    },
+    {
+      "identifier": "org.apache.camel:camel-gson",
+      "version": "4.8.2"
+    },
+    {
+      "identifier": "org.apache.sling:org.apache.sling.launchpad",
+      "version": "9"
+    },
+    {
+      "identifier": "org.kie:kie-spring",
+      "version": "7.74.1.Final"
+    },
+    {
+      "identifier": "org.springframework.ldap:spring-ldap-ldif-batch",
+      "version": "2.3.8.RELEASE"
+    },
+    {
+      "identifier": "org.apache.bookkeeper:bookkeeper-server",
+      "version": "4.17.1"
+    },
+    {
+      "identifier": "org.datanucleus:datanucleus-jpa",
+      "version": "2.1.8"
+    },
+    {
+      "identifier": "org.apache.isis.core:isis-core-runtime",
+      "version": "2.0.0-M9"
+    },
+    {
+      "identifier": "org.eclipse.core:runtime",
+      "version": "3.10.0-v20140318-2214"
+    },
+    {
+      "identifier": "org.neo4j:neo4j-ogm-embedded-driver",
+      "version": "3.3.4"
+    },
+    {
+      "identifier": "org.apache.camel:camel-xmljson",
+      "version": "2.23.4"
+    },
+    {
+      "identifier": "org.apache.solr:solr-dataimporthandler",
+      "version": "8.11.4"
+    },
+    {
+      "identifier": "com.googlecode.charts4j:charts4j",
+      "version": "1.3"
+    },
+    {
+      "identifier": "org.apache.cxf:cxf-rt-transports-jms",
+      "version": "3.5.9"
+    },
+    {
+      "identifier": "com.github.xiaoymin:swagger-bootstrap-ui",
+      "version": "1.9.6"
+    },
+    {
+      "identifier": "com.googlecode.genericdao:dao-hibernate",
+      "version": "1.2.0"
+    },
+    {
+      "identifier": "org.springframework.ldap:spring-ldap-odm",
+      "version": "2.4.4"
+    },
+    {
+      "identifier": "org.apache.directory.studio:org.dom4j.dom4j",
+      "version": "1.6.1"
+    },
+    {
+      "identifier": "de.codecentric:spring-boot-admin-server-ui-turbine",
+      "version": "1.5.7"
+    },
+    {
+      "identifier": "org.b3log:latke-repository-mysql",
+      "version": "3.4.30"
+    },
+    {
+      "identifier": "io.cucumber:cucumber-testng",
+      "version": "7.20.1"
+    },
+    {
+      "identifier": "org.eclipse.collections:eclipse-collections",
+      "version": "12.0.0.M3"
+    },
+    {
+      "identifier": "com.netflix.curator:curator-recipes",
+      "version": "1.3.3"
+    },
+    {
+      "identifier": "org.javasimon:javasimon-console-embed",
+      "version": "4.2.0"
+    },
+    {
+      "identifier": "com.basho.riak:riak-client",
+      "version": "2.1.1"
+    },
+    {
+      "identifier": "org.webjars:momentjs",
+      "version": "2.30.1"
+    },
+    {
+      "identifier": "org.apache.tapestry:tapestry-yuicompressor",
+      "version": "5.3.8"
+    },
+    {
+      "identifier": "org.elasticsearch:elasticsearch-hadoop",
+      "version": "7.17.26"
+    },
+    {
+      "identifier": "org.kohsuke:libpam4j",
+      "version": "1.11"
+    },
+    {
+      "identifier": "org.apache.spark:spark-streaming-kafka-0-8_2.11",
+      "version": "2.4.8"
+    },
+    {
+      "identifier": "com.aliyun.odps:odps-sdk-udf",
+      "version": "0.51.0-public"
+    },
+    {
+      "identifier": "org.icefaces:icefaces-ace",
+      "version": "4.3.0"
+    },
+    {
+      "identifier": "org.jboss.resteasy:tjws",
+      "version": "3.15.6.Final"
+    },
+    {
+      "identifier": "com.smartgwt:smartgwt",
+      "version": "2.5-patch"
+    },
+    {
+      "identifier": "com.microsoft.azure:azure",
+      "version": "1.41.4"
+    },
+    {
+      "identifier": "org.apache.hadoop:hadoop-kms",
+      "version": "3.4.1"
+    },
+    {
+      "identifier": "com.github.shyiko:mysql-binlog-connector-java",
+      "version": "0.21.0"
+    },
+    {
+      "identifier": "dumbster:dumbster",
+      "version": "1.6"
+    },
+    {
+      "identifier": "com.google.android.apps.dashclock:dashclock-api",
+      "version": "2.0.0"
+    },
+    {
+      "identifier": "org.apache.cxf:cxf-rt-transports-http-hc",
+      "version": "3.5.9"
+    },
+    {
+      "identifier": "com.google.gms:google-services",
+      "version": "3.1.1"
+    },
+    {
+      "identifier": "org.apache.shiro:shiro-spring-boot-web-starter",
+      "version": "2.0.2"
+    },
+    {
+      "identifier": "com.weibo:motan-transport-netty",
+      "version": "1.2.4"
+    },
+    {
+      "identifier": "org.jadira.usertype:usertype.jodatime",
+      "version": "2.0.1"
+    },
+    {
+      "identifier": "uk.ltd.getahead:dwr",
+      "version": "1.1.1"
+    },
+    {
+      "identifier": "com.android.tools.lint:lint-api",
+      "version": "25.3.0"
+    },
+    {
+      "identifier": "org.springframework.security.oauth:spring-security-oauth",
+      "version": "2.5.2.RELEASE"
+    },
+    {
+      "identifier": "org.apache.camel:camel-twitter",
+      "version": "4.8.2"
+    },
+    {
+      "identifier": "org.apache.camel:camel-script",
+      "version": "2.25.4"
+    },
+    {
+      "identifier": "org.roboguice:roboblender",
+      "version": "4.0.0"
+    },
+    {
+      "identifier": "org.apache.xmlrpc:xmlrpc-server",
+      "version": "3.1.3"
+    },
+    {
+      "identifier": "com.joestelmach:natty",
+      "version": "0.13"
+    },
+    {
+      "identifier": "org.onosproject:onos-api",
+      "version": "2.5.9"
+    },
+    {
+      "identifier": "org.testfx:testfx-internal-java9",
+      "version": "4.0.12-alpha"
+    },
+    {
+      "identifier": "com.liferay.faces:liferay-faces-bridge-impl",
+      "version": "2.1.5-ga6"
+    },
+    {
+      "identifier": "com.google:bitcoinj",
+      "version": "0.11.3"
+    },
+    {
+      "identifier": "org.jboss.resteasy:resteasy-undertow",
+      "version": "7.0.0.Alpha4"
+    },
+    {
+      "identifier": "org.springframework.integration:spring-integration-ws",
+      "version": "6.4.0"
+    },
+    {
+      "identifier": "com.offbytwo.jenkins:jenkins-client",
+      "version": "0.3.8"
+    },
+    {
+      "identifier": "org.specs2:specs2_2.10",
+      "version": "2.5-scalaz-7.1.6"
+    },
+    {
+      "identifier": "com.sparkjava:spark-template-thymeleaf",
+      "version": "2.7.1"
+    },
+    {
+      "identifier": "org.apache.tika:tika-app",
+      "version": "3.0.0"
+    },
+    {
+      "identifier": "io.swagger:swagger-codegen",
+      "version": "2.4.43"
+    },
+    {
+      "identifier": "de.codecentric:spring-boot-admin-server-ui-hystrix",
+      "version": "1.5.7"
+    },
+    {
+      "identifier": "org.apache.cxf:cxf-spring-boot-starter-jaxws",
+      "version": "3.5.9"
+    },
+    {
+      "identifier": "com.alibaba.otter:canal.client",
+      "version": "1.1.7"
+    },
+    {
+      "identifier": "com.sun.net.httpserver:http",
+      "version": "20070405"
+    },
+    {
+      "identifier": "org.apache.maven:maven-toolchain",
+      "version": "2.0.11"
+    },
+    {
+      "identifier": "com.facebook.presto:presto-jdbc",
+      "version": "0.289"
+    },
+    {
+      "identifier": "net.mingsoft:shiro-freemarker-tags",
+      "version": "1.0.3"
+    },
+    {
+      "identifier": "com.weibo:motan-springsupport",
+      "version": "1.2.4"
+    },
+    {
+      "identifier": "ca.uhn.hapi.fhir:hapi-fhir-base",
+      "version": "7.6.0"
+    },
+    {
+      "identifier": "com.github.rjeschke:txtmark",
+      "version": "0.13"
+    },
+    {
+      "identifier": "com.datastax.spark:spark-cassandra-connector-java_2.10",
+      "version": "1.5.2"
+    },
+    {
+      "identifier": "org.hibernate.ogm:hibernate-ogm-mongodb",
+      "version": "5.4.2.Final"
+    },
+    {
+      "identifier": "net.sf.jacob-project:jacob",
+      "version": "1.14.3"
+    },
+    {
+      "identifier": "org.bouncycastle:bcmail-jdk16",
+      "version": "1.46"
+    },
+    {
+      "identifier": "org.apache.logging.log4j:log4j-taglib",
+      "version": "2.24.2"
+    },
+    {
+      "identifier": "org.jboss.arquillian.testng:arquillian-testng-container",
+      "version": "1.9.1.Final"
+    },
+    {
+      "identifier": "com.octo.android.robospice:robospice",
+      "version": "1.4.14"
+    },
+    {
+      "identifier": "com.googlecode.lanterna:lanterna",
+      "version": "3.1.2"
+    },
+    {
+      "identifier": "org.apache.myfaces.tomahawk:tomahawk",
+      "version": "1.1.14"
+    },
+    {
+      "identifier": "org.apache.openjpa:openjpa-all",
+      "version": "4.0.1"
+    },
+    {
+      "identifier": "org.springframework.security:spring-security-cas-client",
+      "version": "2.0.8.RELEASE"
+    },
+    {
+      "identifier": "org.apache.axis2:axis2-jaxws",
+      "version": "1.8.2"
+    },
+    {
+      "identifier": "ru.yandex.qatools.htmlelements:htmlelements-java",
+      "version": "1.20.0"
+    },
+    {
+      "identifier": "com.github.rholder:guava-retrying",
+      "version": "2.0.0"
+    },
+    {
+      "identifier": "com.liferay.faces:liferay-faces-portal",
+      "version": "2.1.5-ga6"
+    },
+    {
+      "identifier": "org.knowm.xchart:xchart",
+      "version": "3.8.8"
+    },
+    {
+      "identifier": "net.orfjackal.retrolambda:retrolambda",
+      "version": "2.5.7"
+    },
+    {
+      "identifier": "org.springframework.batch:spring-batch-admin-manager",
+      "version": "1.3.1.RELEASE"
+    },
+    {
+      "identifier": "org.jboss.spec.javax.batch:jboss-batch-api_1.0_spec",
+      "version": "2.0.0.Final"
+    },
+    {
+      "identifier": "org.apache.struts:struts2-rest-plugin",
+      "version": "6.7.0"
+    },
+    {
+      "identifier": "com.graphql-java:graphiql-spring-boot-starter",
+      "version": "5.0.2"
+    },
+    {
+      "identifier": "com.yammer.dropwizard:dropwizard-client",
+      "version": "0.6.2"
+    },
+    {
+      "identifier": "pircbot:pircbot",
+      "version": "1.5.0"
+    },
+    {
+      "identifier": "org.apache.wink:wink-server",
+      "version": "1.4"
+    },
+    {
+      "identifier": "org.everit.json:org.everit.json.schema",
+      "version": "1.5.1"
+    },
+    {
+      "identifier": "com.google.cloud:google-cloud-pubsub",
+      "version": "1.134.2"
+    },
+    {
+      "identifier": "com.netflix.feign:feign-gson",
+      "version": "8.18.0"
+    },
+    {
+      "identifier": "org.picketlink:picketlink-api",
+      "version": "2.5.5.SP12"
+    },
+    {
+      "identifier": "org.apache.directory.studio:org.apache.commons.logging",
+      "version": "1.1.3"
+    },
+    {
+      "identifier": "org.apache.johnzon:johnzon-jsonb",
+      "version": "2.0.1"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-jta-narayana",
+      "version": "1.5.22.RELEASE"
+    },
+    {
+      "identifier": "de.micromata.jak:JavaAPIforKml",
+      "version": "2.2.1"
+    },
+    {
+      "identifier": "cz.jirutka.spring:embedmongo-spring",
+      "version": "1.3.1"
+    },
+    {
+      "identifier": "com.vaadin:vaadin-spring",
+      "version": "24.5.9"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-starter-social-linkedin",
+      "version": "1.5.22.RELEASE"
+    },
+    {
+      "identifier": "org.lwjgl:lwjgl-stb",
+      "version": "3.3.4"
+    },
+    {
+      "identifier": "net.java.dev.glazedlists:glazedlists_java15",
+      "version": "1.9.1"
+    },
+    {
+      "identifier": "org.apache.camel:camel-rabbitmq",
+      "version": "3.21.5"
+    },
+    {
+      "identifier": "net.sf.jt400:jt400",
+      "version": "20.0.7"
+    },
+    {
+      "identifier": "net.sourceforge.plantuml:plantuml",
+      "version": "1.2024.8"
+    },
+    {
+      "identifier": "net.sf.bluecove:bluecove",
+      "version": "2.1.0"
+    },
+    {
+      "identifier": "org.apache.wicket:wicket-devutils",
+      "version": "10.2.0"
+    },
+    {
+      "identifier": "org.apache.cxf:cxf-rt-rs-service-description-swagger",
+      "version": "3.5.9"
+    },
+    {
+      "identifier": "org.deeplearning4j:deeplearning4j-ui",
+      "version": "1.0.0-M2.1"
+    },
+    {
+      "identifier": "org.liquibase:liquibase-maven-plugin",
+      "version": "4.30.0"
+    },
+    {
+      "identifier": "info.debatty:java-string-similarity",
+      "version": "2.0.0"
+    },
+    {
+      "identifier": "com.github.bumptech.glide:volley-integration",
+      "version": "5.0.0-rc01"
+    },
+    {
+      "identifier": "org.apache.avro:avro-maven-plugin",
+      "version": "1.11.4"
+    },
+    {
+      "identifier": "com.voodoodyne.jackson.jsog:jackson-jsog",
+      "version": "1.1.2"
+    },
+    {
+      "identifier": "com.github.dandelion:datatables-servlet2",
+      "version": "0.9.3"
+    },
+    {
+      "identifier": "cn.springboot:best-pay-sdk",
+      "version": "1.3.7"
+    },
+    {
+      "identifier": "com.strategicgains:RestExpress",
+      "version": "0.11.3"
+    },
+    {
+      "identifier": "com.orbitz.consul:consul-client",
+      "version": "1.5.3"
+    },
+    {
+      "identifier": "com.rubiconproject.oss:jchronic",
+      "version": "0.2.8"
+    },
+    {
+      "identifier": "org.jboss.spec.javax.faces:jboss-jsf-api_2.0_spec",
+      "version": "1.0.0.Final"
+    },
+    {
+      "identifier": "org.codehaus.mojo:findbugs-maven-plugin",
+      "version": "3.0.5"
+    },
+    {
+      "identifier": "org.lwjgl:lwjgl-openal",
+      "version": "3.3.4"
+    },
+    {
+      "identifier": "org.keycloak:keycloak-tomcat8-adapter",
+      "version": "6.0.1"
+    },
+    {
+      "identifier": "jgraph:jgraph",
+      "version": "5.13.0.0"
+    },
+    {
+      "identifier": "jmagick:jmagick",
+      "version": "6.6.9"
+    },
+    {
+      "identifier": "com.googlecode.ez-vcard:ez-vcard",
+      "version": "0.12.1"
+    },
+    {
+      "identifier": "com.github.joschi.jackson:jackson-datatype-threetenbp",
+      "version": "2.15.2"
+    },
+    {
+      "identifier": "com.google.cloud:google-cloud-translate",
+      "version": "2.54.0"
+    },
+    {
+      "identifier": "org.apache.dubbo:dubbo",
+      "version": "3.3.2"
+    },
+    {
+      "identifier": "org.springframework.integration:spring-integration-twitter",
+      "version": "4.3.24.RELEASE"
+    },
+    {
+      "identifier": "org.dspace:dspace-api",
+      "version": "7.6.2"
+    },
+    {
+      "identifier": "com.amazonaws:aws-java-sdk-iam",
+      "version": "1.12.779"
+    },
+    {
+      "identifier": "org.zkoss.zk:zkex",
+      "version": "3.6.3"
+    },
+    {
+      "identifier": "com.force.api:force-partner-api",
+      "version": "62.0.0"
+    },
+    {
+      "identifier": "edu.mit:jwi",
+      "version": "2.2.3"
+    },
+    {
+      "identifier": "org.jboss.forge.furnace.container:cdi",
+      "version": "2.29.1.Final"
+    },
+    {
+      "identifier": "org.hibernate:hibernate-jmx",
+      "version": "3.5.6-Final"
+    },
+    {
+      "identifier": "org.hibernate.validator:hibernate-validator-annotation-processor",
+      "version": "9.0.0.Beta3"
+    },
+    {
+      "identifier": "org.jasig.cas:cas-server-support-jdbc",
+      "version": "4.1.10"
+    },
+    {
+      "identifier": "org.springframework.cloud:spring-cloud-contract-wiremock",
+      "version": "4.2.0"
+    },
+    {
+      "identifier": "org.jxls:jxls-jexcel",
+      "version": "1.0.9"
+    },
+    {
+      "identifier": "org.apache.activemq:activemq-console",
+      "version": "6.1.4"
+    },
+    {
+      "identifier": "com.google.code.simple-spring-memcached:spymemcached",
+      "version": "2.8.4"
+    },
+    {
+      "identifier": "org.apache.flume:flume-ng-node",
+      "version": "1.11.0"
+    },
+    {
+      "identifier": "org.openrdf.sesame:sesame-rio-n3",
+      "version": "4.1.2"
+    },
+    {
+      "identifier": "org.springframework.security:spring-security-remoting",
+      "version": "5.7.14"
+    },
+    {
+      "identifier": "org.jboss.jbossts:jbossjta",
+      "version": "4.16.6.Final"
+    },
+    {
+      "identifier": "org.kubek2k:springockito",
+      "version": "1.0.9"
+    },
+    {
+      "identifier": "io.dropwizard:dropwizard-forms",
+      "version": "4.0.11"
+    },
+    {
+      "identifier": "org.bytedeco.javacpp-presets:ffmpeg",
+      "version": "4.1-1.4.4"
+    },
+    {
+      "identifier": "de.bwaldvogel:liblinear",
+      "version": "2.44"
+    },
+    {
+      "identifier": "com.moandjiezana.toml:toml4j",
+      "version": "0.7.2"
+    },
+    {
+      "identifier": "org.springframework.integration:spring-integration-sftp",
+      "version": "6.4.0"
+    },
+    {
+      "identifier": "org.apache.mina:mina-integration-jmx",
+      "version": "2.1.9"
+    },
+    {
+      "identifier": "com.darwinsys:hirondelle-date4j",
+      "version": "1.5.1"
+    },
+    {
+      "identifier": "org.jboss.arquillian.container:arquillian-weld-se-embedded-1.1",
+      "version": "1.0.0.Final"
+    },
+    {
+      "identifier": "org.apache.maven.wagon:wagon-webdav",
+      "version": "1.0-beta-2"
+    },
+    {
+      "identifier": "org.apache.olingo:olingo-odata2-core",
+      "version": "2.0.13"
+    },
+    {
+      "identifier": "org.apache.hbase:hbase-it",
+      "version": "2.6.1-hadoop3"
+    },
+    {
+      "identifier": "org.glassfish.jersey.ext:jersey-mvc-freemarker",
+      "version": "3.1.9"
+    },
+    {
+      "identifier": "org.apache.hbase:hbase-shaded-client",
+      "version": "2.6.1-hadoop3"
+    },
+    {
+      "identifier": "com.extjs:gxt",
+      "version": "2.3.1a-gwt22"
+    },
+    {
+      "identifier": "com.jcabi:jcabi-github",
+      "version": "1.9.1"
+    },
+    {
+      "identifier": "org.apache.camel:camel-quartz2",
+      "version": "2.25.4"
+    },
+    {
+      "identifier": "com.google.code.simple-spring-memcached:xmemcached-provider",
+      "version": "4.1.3"
+    },
+    {
+      "identifier": "org.apache.axis2:axis2-xmlbeans",
+      "version": "1.8.2"
+    },
+    {
+      "identifier": "org.jpmml:pmml-evaluator",
+      "version": "1.6.7"
+    },
+    {
+      "identifier": "com.googlecode.libphonenumber:geocoder",
+      "version": "2.245"
+    },
+    {
+      "identifier": "org.apache.cxf.xjc-utils:cxf-xjc-runtime",
+      "version": "4.1.0"
+    },
+    {
+      "identifier": "org.jdeferred:jdeferred-core",
+      "version": "1.2.6"
+    },
+    {
+      "identifier": "org.apache.maven.scm:maven-scm-provider-gitexe",
+      "version": "2.1.0"
+    },
+    {
+      "identifier": "one.util:streamex",
+      "version": "0.8.3"
+    },
+    {
+      "identifier": "ar.com.fdvs:DynamicJasper",
+      "version": "5.3.9"
+    },
+    {
+      "identifier": "org.jacoco:org.jacoco.ant",
+      "version": "0.8.12"
+    },
+    {
+      "identifier": "com.github.vanroy:spring-boot-starter-data-jest",
+      "version": "3.3.4.RELEASE"
+    },
+    {
+      "identifier": "org.eclipse:osgi",
+      "version": "3.10.0-v20140606-1445"
+    },
+    {
+      "identifier": "com.amazonaws:amazon-sqs-java-messaging-lib",
+      "version": "1.2.1"
+    },
+    {
+      "identifier": "org.apache.flume.flume-ng-clients:flume-ng-log4jappender",
+      "version": "1.11.0"
+    },
+    {
+      "identifier": "org.infinispan:infinispan-query",
+      "version": "15.1.0.Dev05"
+    },
+    {
+      "identifier": "org.keycloak:keycloak-admin-client",
+      "version": "26.0.3"
+    },
+    {
+      "identifier": "com.netflix.feign:feign-slf4j",
+      "version": "8.18.0"
+    },
+    {
+      "identifier": "com.github.wxpay:wxpay-sdk",
+      "version": "0.0.3"
+    },
+    {
+      "identifier": "com.aliyun.openservices:aliyun-openservices",
+      "version": "OTS-2.0.4"
+    },
+    {
+      "identifier": "ca.uhn.hapi:hapi-structures-v26",
+      "version": "2.5.1"
+    },
+    {
+      "identifier": "org.eclipse.equinox:common",
+      "version": "3.6.200-v20130402-1505"
+    },
+    {
+      "identifier": "de.codecentric:jbehave-junit-runner",
+      "version": "1.2.0"
+    },
+    {
+      "identifier": "org.eclipse.microprofile.config:microprofile-config-api",
+      "version": "3.1"
+    },
+    {
+      "identifier": "org.apache.activemq:activemq-web",
+      "version": "6.1.4"
+    },
+    {
+      "identifier": "org.jxls:jxls-poi",
+      "version": "3.0.0"
+    },
+    {
+      "identifier": "org.apache.jclouds:jclouds-blobstore",
+      "version": "2.6.0"
+    },
+    {
+      "identifier": "org.bytedeco:javacv-platform",
+      "version": "1.5.11"
+    },
+    {
+      "identifier": "net.openhft:chronicle-map",
+      "version": "3.27ea0"
+    },
+    {
+      "identifier": "org.webjars.bower:angular",
+      "version": "1.8.3"
+    },
+    {
+      "identifier": "net.sf.uadetector:uadetector-resources",
+      "version": "2014.10"
+    },
+    {
+      "identifier": "com.googlecode.soundlibs:mp3spi",
+      "version": "1.9.5.4"
+    },
+    {
+      "identifier": "org.apache.maven.scm:maven-scm-manager-plexus",
+      "version": "2.1.0"
+    },
+    {
+      "identifier": "org.apache.xmlgraphics:batik-extension",
+      "version": "1.18"
+    },
+    {
+      "identifier": "com.github.abel533:ECharts",
+      "version": "3.0.0.6"
+    },
+    {
+      "identifier": "org.clojure:clojurescript",
+      "version": "1.11.132"
+    },
+    {
+      "identifier": "org.drools:drools-api",
+      "version": "5.1.1"
+    },
+    {
+      "identifier": "net.fckeditor:java-core",
+      "version": "2.6"
+    },
+    {
+      "identifier": "org.jboss.errai:errai-ui",
+      "version": "4.16.0.Final"
+    },
+    {
+      "identifier": "org.apache.activemq:activemq-amqp",
+      "version": "6.1.4"
+    },
+    {
+      "identifier": "org.wildfly.swarm:jaxrs-jsonp",
+      "version": "2018.5.0"
+    },
+    {
+      "identifier": "org.apache.struts:struts2-jfreechart-plugin",
+      "version": "6.7.0"
+    },
+    {
+      "identifier": "org.apache.camel:camel-velocity",
+      "version": "4.8.2"
+    },
+    {
+      "identifier": "javax.sip:jain-sip-ri",
+      "version": "1.3.0-91"
+    },
+    {
+      "identifier": "com.baidu.aip:java-sdk",
+      "version": "4.16.19"
+    },
+    {
+      "identifier": "org.apache.directory.jdbm:apacheds-jdbm1",
+      "version": "2.0.0-M3"
+    },
+    {
+      "identifier": "ru.yandex.qatools.allure:allure-cucumber-jvm-adaptor",
+      "version": "1.6.4"
+    },
+    {
+      "identifier": "org.syslog4j:syslog4j",
+      "version": "0.9.30"
+    },
+    {
+      "identifier": "com.github.fernandospr:javapns-jdk16",
+      "version": "2.4.0"
+    },
+    {
+      "identifier": "org.apache.tomcat:tomcat-catalina-ant",
+      "version": "10.1.33"
+    },
+    {
+      "identifier": "com.netflix.astyanax:astyanax-thrift",
+      "version": "3.10.2"
+    },
+    {
+      "identifier": "net.javacrumbs.json-unit:json-unit-fluent",
+      "version": "4.1.0"
+    },
+    {
+      "identifier": "org.apache.camel:camel-saxon",
+      "version": "4.8.2"
+    },
+    {
+      "identifier": "net.java.dev.stax-utils:stax-utils",
+      "version": "20070216"
+    },
+    {
+      "identifier": "org.apache.poi:poi-contrib",
+      "version": "3.7-beta3"
+    },
+    {
+      "identifier": "org.jboss.forge.furnace.test:furnace-test-harness",
+      "version": "2.29.1.Final"
+    },
+    {
+      "identifier": "org.apache.maven.wagon:wagon-ftp",
+      "version": "3.5.3"
+    },
+    {
+      "identifier": "org.apache.camel:camel-jsonpath",
+      "version": "4.8.2"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-antlib",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "org.apache.lucene:lucene-demo",
+      "version": "10.0.0"
+    },
+    {
+      "identifier": "com.hazelcast:hazelcast-wm",
+      "version": "5.0"
+    },
+    {
+      "identifier": "org.apache.maven.plugins:maven-javadoc-plugin",
+      "version": "3.11.2"
+    },
+    {
+      "identifier": "org.ops4j.pax.logging:pax-logging-service",
+      "version": "1.11.17"
+    },
+    {
+      "identifier": "com.alibaba.spring.boot:dubbo-spring-boot-starter",
+      "version": "2.0.0"
+    },
+    {
+      "identifier": "org.elasticsearch:elasticsearch-hadoop-mr",
+      "version": "7.17.26"
+    },
+    {
+      "identifier": "org.jboss.resteasy:resteasy-atom-provider",
+      "version": "7.0.0.Alpha4"
+    },
+    {
+      "identifier": "com.orientechnologies:orientdb-object",
+      "version": "3.2.36"
+    },
+    {
+      "identifier": "com.github.binarywang:weixin-java-pay",
+      "version": "4.6.8.B"
+    },
+    {
+      "identifier": "com.neovisionaries:nv-i18n",
+      "version": "1.29"
+    },
+    {
+      "identifier": "uk.ac.gate:gate-core",
+      "version": "9.0.1"
+    },
+    {
+      "identifier": "org.springframework.boot:spring-boot-configuration-metadata",
+      "version": "3.4.0"
+    },
+    {
+      "identifier": "org.hornetq:hornetq-jms",
+      "version": "2.2.14.Final"
+    },
+    {
+      "identifier": "com.dangdang:elastic-job-lite-spring",
+      "version": "2.1.5"
+    },
+    {
+      "identifier": "net.sf.jung:jung-io",
+      "version": "2.1.1"
+    },
+    {
+      "identifier": "guru.springframework:chuck-norris-for-actuator",
+      "version": "3.0.0-M4"
+    },
+    {
+      "identifier": "com.google.cloud.sql:mysql-socket-factory",
+      "version": "1.13.1"
+    },
+    {
+      "identifier": "org.cometd.java:bayeux-api",
+      "version": "4.0.9"
+    },
+    {
+      "identifier": "org.apache.flume.flume-ng-sinks:flume-ng-hbase-sink",
+      "version": "1.11.0"
+    },
+    {
+      "identifier": "cd.go.plugin:go-plugin-api",
+      "version": "24.4.0"
+    },
+    {
+      "identifier": "org.skife.config:config-magic",
+      "version": "0.22"
+    },
+    {
+      "identifier": "org.apache.nifi:nifi-mock",
+      "version": "1.28.1"
+    },
+    {
+      "identifier": "com.ecwid.consul:consul-api",
+      "version": "1.4.5"
+    },
+    {
+      "identifier": "com.networknt:utility",
+      "version": "2.1.38"
+    },
+    {
+      "identifier": "edu.umd:cloud9",
+      "version": "2.0.1"
+    },
+    {
+      "identifier": "com.allen-sauer.gwt.dnd:gwt-dnd",
+      "version": "3.3.4"
+    },
+    {
+      "identifier": "org.wildfly.swarm:ejb",
+      "version": "2018.5.0"
+    },
+    {
+      "identifier": "org.jbpm:jbpm-runtime-manager",
+      "version": "7.74.1.Final"
+    },
+    {
+      "identifier": "com.dangdang:elastic-job-lite-core",
+      "version": "2.1.5"
+    },
+    {
+      "identifier": "com.sun.jersey.jersey-test-framework:jersey-test-framework-grizzly",
+      "version": "1.19.4"
+    },
+    {
+      "identifier": "org.apache.storm:storm-hbase",
+      "version": "2.5.0"
+    },
+    {
+      "identifier": "io.minio:minio",
+      "version": "8.5.14"
+    },
+    {
+      "identifier": "org.apache.felix:org.apache.felix.gogo.command",
+      "version": "1.1.2"
+    },
+    {
+      "identifier": "org.apache.maven.wagon:wagon-webdav-jackrabbit",
+      "version": "3.5.3"
+    },
+    {
+      "identifier": "com.mitchellbosecke:pebble",
+      "version": "2.4.0"
+    },
+    {
+      "identifier": "com.xeiam.xchart:xchart",
+      "version": "2.5.1"
+    },
+    {
+      "identifier": "org.springframework.integration:spring-integration-feed",
+      "version": "6.4.0"
+    },
+    {
+      "identifier": "org.gwtbootstrap3:gwtbootstrap3-extras",
+      "version": "1.0.2"
+    },
+    {
+      "identifier": "org.brickred:socialauth",
+      "version": "4.15"
+    },
+    {
+      "identifier": "nl.bitwalker:UserAgentUtils",
+      "version": "1.2.4"
+    },
+    {
+      "identifier": "cn.edu.hfut.dmic.webcollector:WebCollector",
+      "version": "2.74-alpha"
+    },
+    {
+      "identifier": "br.com.caelum.vraptor:vraptor-jpa",
+      "version": "4.0.5"
+    },
+    {
+      "identifier": "io.springfox:springfox-data-rest",
+      "version": "3.0.0"
+    },
+    {
+      "identifier": "org.codehaus.sonar-plugins:sonar-ant-task",
+      "version": "2.2"
+    },
+    {
+      "identifier": "org.apache.uima:uimaj-as-jms",
+      "version": "2.10.3"
+    },
+    {
+      "identifier": "org.javalite:activeweb",
+      "version": "3.3"
+    },
+    {
+      "identifier": "org.pac4j:pac4j-http",
+      "version": "6.1.0"
+    },
+    {
+      "identifier": "org.apache.openejb:arquillian-tomee-embedded",
+      "version": "1.7.5"
+    },
+    {
+      "identifier": "com.codepoetics:protonpack",
+      "version": "1.16"
+    },
+    {
+      "identifier": "com.twitter:parquet-avro",
+      "version": "1.6.0"
+    },
+    {
+      "identifier": "com.wordnik:swagger-core",
+      "version": "1.5.2-M2"
+    },
+    {
+      "identifier": "org.jopendocument:jOpenDocument",
+      "version": "1.3"
+    },
+    {
+      "identifier": "org.apache.spark:spark-streaming-kafka_2.11",
+      "version": "1.6.3"
+    },
+    {
+      "identifier": "com.github.haifengl:smile-core",
+      "version": "4.0.0"
+    },
+    {
+      "identifier": "com.itextpdf:itext-xtra",
+      "version": "5.5.13.4"
+    },
+    {
+      "identifier": "com.amazonaws:aws-lambda-java-log4j2",
+      "version": "1.6.0"
+    },
+    {
+      "identifier": "com.github.slugify:slugify",
+      "version": "3.0.7"
+    },
+    {
+      "identifier": "org.wso2.siddhi:siddhi-core",
+      "version": "3.2.13"
+    },
+    {
+      "identifier": "args4j:args4j",
+      "version": "2.37"
+    }
+  ]
+}
