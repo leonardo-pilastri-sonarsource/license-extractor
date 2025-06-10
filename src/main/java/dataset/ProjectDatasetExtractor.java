@@ -23,7 +23,7 @@ public class ProjectDatasetExtractor {
     assertNotEmpty(MAVEN_HOME, "MAVEN_HOME environment variable is not set.");
     var libs = getTopLibs();
 
-    ExecutorService executor = Executors.newFixedThreadPool(4);
+    ExecutorService executor = Executors.newFixedThreadPool(8);
 
     for (Lib lib : libs) {
       executor.submit(() -> {
@@ -33,7 +33,7 @@ public class ProjectDatasetExtractor {
         if (downloadArtifact(artifact)) {
           String licenseFileContent = new JarLicense(artifact).licenseFileContent;
           if (licenseFileContent != null) {
-            System.out.println(licenseFileContent.substring(0, 100));
+            System.out.println(licenseFileContent.substring(0, Math.min(100, licenseFileContent.length() - 1)));
           } else {
             System.out.println("No license file found for " + artifact);
           }

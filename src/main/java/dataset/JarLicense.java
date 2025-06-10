@@ -3,6 +3,7 @@ package dataset;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Arrays;
 import java.util.zip.ZipInputStream;
 
 public class JarLicense {
@@ -25,8 +26,9 @@ public class JarLicense {
             String content = new String(zip.readAllBytes());
             String[] lines = content.split("\n");
             for (String line : lines) {
-              if (line.toLowerCase().contains("license")) {
+              if (line.contains("License")) {
                 licenseFileContent = line;
+                break;
               }
             }
           }
