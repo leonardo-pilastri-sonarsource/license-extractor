@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -18,29 +19,45 @@ import org.springframework.boot.json.JacksonJsonParser;
 public class ProjectDatasetExtractor {
 
   public static final String MAVEN_HOME = System.getenv("MAVEN_HOME");
+  private static List<Lib> notWorking = new ArrayList<>();
 
   public static void main(String[] args) {
     assertNotEmpty(MAVEN_HOME, "MAVEN_HOME environment variable is not set.");
     var libs = getTopLibs();
 
-    ExecutorService executor = Executors.newFixedThreadPool(8);
-
-    for (Lib lib : libs) {
-      executor.submit(() -> {
-        var groupArtifact = lib.identifier().split(":");
-        var artifact = new LocalArtifact(groupArtifact[0], groupArtifact[1], lib.version(),
-          toLocalJarPath(groupArtifact[0], groupArtifact[1], lib.version()));
-        if (downloadArtifact(artifact)) {
-          String licenseFileContent = new JarLicense(artifact).licenseFileContent;
-          if (licenseFileContent != null) {
-            System.out.println(licenseFileContent.substring(0, Math.min(100, licenseFileContent.length() - 1)));
+    try (ExecutorService executor = Executors.newFixedThreadPool(8)) {
+      for (Lib lib : libs) {
+        executor.submit(() -> {
+          var groupArtifact = lib.identifier().split(":");
+          var artifact = new LocalArtifact(groupArtifact[0], groupArtifact[1], lib.version(),
+            toLocalJarPath(groupArtifact[0], groupArtifact[1], lib.version()));
+          if (downloadArtifact(artifact)) {
+            String licenseFileContent = new JarLicense(artifact).licenseFileContent;
+            if (licenseFileContent != null) {
+              System.out.println(licenseFileContent.substring(0, Math.min(100, licenseFileContent.length() - 1)));
+            } else {
+              didNotWork(lib);
+              System.out.println("No license file found for " + artifact);
+            }
           } else {
-            System.out.println("No license file found for " + artifact);
+            didNotWork(lib);
           }
-        }
-      });
+        });
+      }
+      executor.shutdown();
     }
-    System.out.println("Found " + libs.size() + " libraries.");
+
+
+    System.out.println("Found " + libs.size() + " libraries.\n\n");
+    System.out.println("Not Found " + notWorking.size() + " libraries: \n\n");
+    for (Lib lib : notWorking) {
+      System.out.println(lib.toString());
+    }
+
+  }
+
+  static synchronized void didNotWork(Lib lib) {
+    notWorking.add(lib);
   }
 
   private static List<Lib> getTopLibs() {
@@ -73,9 +90,8 @@ public class ProjectDatasetExtractor {
       System.out.println("Downloading " + artifact.localPath());
       String home = System.getProperty("user.home");
       String mvnCommand = System.getProperty("os.name").toLowerCase().contains("win") ? "mvn.cmd" : "mvn";
-      Process process = null;
       try {
-        process = new ProcessBuilder(
+        int exitCode = new ProcessBuilder(
           Path.of(MAVEN_HOME)
             .resolve("bin")
             .resolve(mvnCommand)
@@ -86,8 +102,7 @@ public class ProjectDatasetExtractor {
           "-Dtransitive=false")
           .inheritIO()
           .directory(new File(home, ".m2"))
-          .start();
-        int exitCode = process.waitFor();
+          .start().waitFor();
         if (exitCode != 0) {
           System.err.println("ERROR, download failed. Exit code: " + exitCode);
           return false;

@@ -26,7 +26,7 @@ public class JarLicense {
             String content = new String(zip.readAllBytes());
             String[] lines = content.split("\n");
             for (String line : lines) {
-              if (line.contains("License")) {
+              if (line.toLowerCase().contains("license")) {
                 licenseFileContent = line;
                 break;
               }
