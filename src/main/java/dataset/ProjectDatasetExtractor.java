@@ -37,7 +37,7 @@ public class ProjectDatasetExtractor {
               System.out.println(licenseFileContent.substring(0, Math.min(100, licenseFileContent.length() - 1)));
             } else {
               didNotWork(lib);
-              System.out.println("No license file found for " + artifact);
+              System.out.println("No license file found for " + artifact + " --->  " + JarLicense.buildPomUrl(artifact));
             }
           } else {
             didNotWork(lib);
@@ -49,10 +49,10 @@ public class ProjectDatasetExtractor {
 
 
     System.out.println("Found " + libs.size() + " libraries.\n\n");
-    System.out.println("Not Found " + notWorking.size() + " libraries: \n\n");
     for (Lib lib : notWorking) {
       System.out.println(lib.toString());
     }
+    System.out.println("Not Found " + notWorking.size() + " libraries: \n\n");
 
   }
 
@@ -87,7 +87,7 @@ public class ProjectDatasetExtractor {
 
   private static boolean downloadArtifact(LocalArtifact artifact) {
     if (!Files.exists(artifact.localPath())) {
-      System.out.println("Downloading " + artifact.localPath());
+//      System.out.println("Downloading " + artifact.localPath());
       String home = System.getProperty("user.home");
       String mvnCommand = System.getProperty("os.name").toLowerCase().contains("win") ? "mvn.cmd" : "mvn";
       try {
@@ -104,16 +104,16 @@ public class ProjectDatasetExtractor {
           .directory(new File(home, ".m2"))
           .start().waitFor();
         if (exitCode != 0) {
-          System.err.println("ERROR, download failed. Exit code: " + exitCode);
+//          System.err.println("ERROR, download failed. Exit code: " + exitCode);
           return false;
         }
       } catch (IOException | InterruptedException e) {
-        System.err.println("Unexpected error!!");
+//        System.err.println("Unexpected error!!");
         return false;
       }
 
     } else {
-      System.out.println("Artifact already exists: " + artifact.localPath());
+//      System.out.println("Artifact already exists: " + artifact.localPath());
     }
     return true;
   }

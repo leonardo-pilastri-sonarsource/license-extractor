@@ -1,5 +1,6 @@
 package dataset;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URI;
@@ -30,7 +31,7 @@ public class JarLicense {
         }
         if (!entry.isDirectory()) {
           String path = entry.getName();
-          if (path.contains("LICENSE")) {
+          if (path.contains("META-INF/LICENSE")) {
             licenseFileContent = new String(zip.readAllBytes());
             zip.closeEntry();
           } else if (path.contains("MANIFEST")) {
@@ -47,7 +48,7 @@ public class JarLicense {
         zip.closeEntry();
       }
     } catch (IOException e) {
-      System.err.println("Error reading " + artifact.localPath());
+//      System.err.println("Error reading " + artifact.localPath());
     }
     if (licenseFileContent == null) {
       String pomUrl = buildPomUrl(artifact.groupId(), artifact.artifactId(), artifact.version());
@@ -67,11 +68,11 @@ public class JarLicense {
     String expr = "/*[local-name()='project']"
       + "/*[local-name()='licenses']"
       + "/*[local-name()='license']"
-      + "/*[local-name()='name']/text()";
+      + "/*[local-name()='url']/text()";
     NodeList nodes = (NodeList) xp.evaluate(expr, doc, XPathConstants.NODESET);
 
     if (nodes.getLength() > 0) {
-      return nodes.item(0).getNodeValue().trim();
+      return "License from pom = " + nodes.item(0).getNodeValue().trim();
     }
     return null;
   }
@@ -98,5 +99,10 @@ public class JarLicense {
       path, artifactId, version, artifactId, version
     );
   }
+
+  public static String buildPomUrl(ProjectDatasetExtractor.LocalArtifact artifact) {
+    return buildPomUrl(artifact.groupId(), artifact.artifactId(), artifact.version());
+  }
+
 
 }
