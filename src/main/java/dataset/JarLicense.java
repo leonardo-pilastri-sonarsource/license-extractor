@@ -1,6 +1,5 @@
 package dataset;
 
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URI;
@@ -14,13 +13,21 @@ import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathFactory;
 import org.w3c.dom.Document;
+import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 public class JarLicense {
 
   private static final HttpClient CLIENT = HttpClient.newHttpClient();
 
-  public String licenseFileContent;
+  private String licenseFileContent;
+
+  public String getLicense() {
+    if (licenseFileContent != null) {
+      return licenseFileContent.toLowerCase().replace("\n", "");
+    }
+    return null;
+  }
 
   public JarLicense(ProjectDatasetExtractor.LocalArtifact artifact) {
     try (var in = Files.newInputStream(artifact.localPath());
@@ -34,7 +41,7 @@ public class JarLicense {
           if (path.contains("META-INF/LICENSE")) {
             licenseFileContent = new String(zip.readAllBytes());
             zip.closeEntry();
-          } else if (path.contains("MANIFEST")) {
+          } else if (path.contains("META-INF/MANIFEST")) {
             String content = new String(zip.readAllBytes());
             String[] lines = content.split("\n");
             for (String line : lines) {
@@ -63,6 +70,16 @@ public class JarLicense {
   }
 
   public static String extractLicenseName(Document doc) throws Exception {
+    NodeList firstChildren = doc.getChildNodes();
+    for (int i = 0; i < firstChildren.getLength(); i++) {
+      var node = firstChildren.item(i);
+      if (node.getNodeType() == Node.COMMENT_NODE) {
+        if (node.getTextContent().toLowerCase().contains("license")) {
+          return node.getTextContent();
+        }
+      }
+    }
+
     XPath xp = XPathFactory.newInstance().newXPath();
     // Match: /project/licenses/license/name but using local-name() to ignore xmlns
     String expr = "/*[local-name()='project']"
