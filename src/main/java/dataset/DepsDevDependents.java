@@ -36,11 +36,11 @@ public class DepsDevDependents {
   }
 
 
-  public static DependentsInfo fetchDependents(ProjectDatasetExtractor.LocalArtifact artifact) {
+  public static DependentsInfo fetchDependents(Main.LocalArtifact artifact) {
     try {
       return fetchDependents(artifact.groupId(), artifact.artifactId(), artifact.version());
     } catch (Exception e) {
-      return null;
+      return new DependentsInfo();
     }
   }
 
